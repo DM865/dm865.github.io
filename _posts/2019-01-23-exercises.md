@@ -30,7 +30,7 @@ categories: exercises sheet1
       solution than the Double Tree Algorithm.
       More specifically, give a graph and concrete runs of the two
       algorithms on the graph such that Christofide's Algorithm
-      produces a cycle of smaller total weight that the Double Tree
+      produces a cycle of smaller total weight than the Double Tree
       Algorithm.
 
    b) Do a) again, but such that the Double Tree Algorithm gives the
