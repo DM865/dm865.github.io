@@ -1,0 +1,34 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lscape}
+
+\renewcommand{\arraystretch}{1.5}
+\pagestyle{empty}
+
+\newcommand{\x}{\ensuremath{\times}}
+
+\begin{document}
+\begin{landscape}
+\hspace*{-3cm}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|c|c|}
+  \hline
+             & \multicolumn{3}{|c|}{LP}       &              &                &                    &           &       &        & \\
+  \hline
+             & Rounding    & P-D   & (Dual f.) & Greedy       & Dyn.\ prg.\    & Other comb.\       & Local s.\ & PTAS  & Rand.\ & Derand.\ \\
+  \hline\hline
+  TSP        &             &       &          & Near.\ add.\ &                & D.T.+Chr.\    &           &       &        &\\
+  \hline
+  Max Sat    & rand.\      &       &          &              &                & Best-of-2          &           &       & \x     & \x\\
+  \hline
+  Set Cover  & det.+rand.\ & \x    & Greedy   & \x           &                &                    &           &       &        & \\
+  \hline
+  Knapsack   &             &       &          & (\x)         & Round values   &                    &           & FPTAS &        &\\
+  \hline
+Bin packing  &             &       &          &              & Group \& round &                    &           & APTAS &        &\\
+\hline
+ Scheduling  &             &       &          & LS+LPT       & Round sizes    &                    & \x        & PTAS  &        &\\
+  \hline
+\end{tabular}
+\end{landscape}
+\end{document}
