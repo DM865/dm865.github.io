@@ -1,0 +1,250 @@
+\ProvidesPackageRCS $Header: beamerouterthemeOdense.sty,v 0.9 2007/02/05 00:00:00 jrouquie Exp $
+% Copyright 2007 by Jean-Baptiste Rouquier
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+
+\mode<presentation>
+
+
+%\setbeamercolor*{normal text}{fg=black,bg=white!90!black}
+%\setbeamercolor*{example text}{fg=black}
+%\setbeamercolor*{structure}{fg=black}
+
+
+\beamertemplateboldtitlepage
+\beamertemplateboldcenterframetitle
+
+%\beamertemplateplaintoc
+\beamertemplatenumberedsectiontoc
+%\beamertemplatenumberedballsectiontoc
+
+\beamertemplatenavigationsymbolsempty
+\beamertemplatetransparentcovered
+
+\setbeamercovered{invisible}
+%\renewcommand{\alert}{\textbf}
+\setbeamercolor{alerted text}{fg=blue}
+
+%\defbeamertemplate*{background}{Odense theme}{%
+%  \hskip0.64\paperwidth%
+%  \includegraphics[width=\paperwidth,height=0.88\paperheight,keepaspectratio,trim=0 0 0 -10]{Odense_theme/sdu_seal}%
+%}
+%
+\usesectionheadtemplate
+  {\insertsectionhead\hfill}
+  {\color{fg!50!bg}\insertsectionhead\hfill}
+
+
+\newdimen\beamer@headheight
+\beamer@headheight=1.8\baselineskip
+
+
+\usetitlepagetemplate{
+\vbox{}
+\vfill
+\begin{centering}
+{
+\large {\bf DMP204}\\SCHEDULING,\\
+TIMETABLING AND ROUTING
+%DM63\hspace*{0.28em}SEARCH\hspace*{0.28em}METHODS\\
+%\footnotesize APPLICATIONS\hspace*{0.62em}AND\hspace*{0.62em}ENGINEERING\\
+%\sf\large STOCHASTIC\hspace*{0.42em}LOCAL\hspace*{0.42em}SEARCH\\
+%\small FOUNDATIONS\hspace*{0.25em}AND\hspace*{0.25em}APPLICATIONS\\
+%\sc\large Stochastic Local Search\\
+%\small Foundations\hspace*{0.42em}and\hspace*{0.42em}Applications\\
+}
+
+\vspace*{8mm}
+
+\Large\structure{\bf \inserttitle}
+
+\vspace*{10mm}
+
+\normalsize\insertauthor\vskip1em\par
+\small\insertinstitute
+%{\scriptsize\insertinstitute\par}\par\vskip1em
+%\insertdate\par\vskip1.5em
+%\inserttitlegraphic
+
+\vspace*{5mm}
+\end{centering}
+\vfill
+}
+
+
+  \defbeamertemplate*{frametitle}{split theme}
+  {%
+    \nointerlineskip%
+    \vskip-\beamer@headheight%
+    \vbox to \beamer@headheight{%
+      \vfil
+      \leftskip=-\beamer@leftmargin%
+      \advance\leftskip by0.3cm%
+      \rightskip=-\beamer@rightmargin%
+      \advance\rightskip by0.3cm plus1fil%
+      {\usebeamercolor[fg]{frametitle}\usebeamerfont{frametitle}{\large\bf\insertframetitle}\par}%
+%      {\usebeamercolor[fg]{framesubtitle}\usebeamerfont{framesubtitle}\insertframesubtitle\par}%
+      \vbox{}%
+      \vskip-1em%
+      \vfil
+    }%
+  }
+
+
+\ifbeamer@compress
+\defbeamertemplate*{headline}{split theme}{%
+  \leavevmode%
+  \includegraphics[width=0.4\paperwidth]{Odense_theme/sdu_logo}%
+  \insertsectionnavigationhorizontal{.6\paperwidth}{\hskip0pt plus1filll}{}%
+}
+\else
+\defbeamertemplate*{headline}{split theme}
+{%
+  \leavevmode%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=12ex]{frametitle}
+      \end{beamercolorbox}%
+}
+%%
+%%
+%%\defbeamertemplate*{headline}{split theme}{%
+%%  \leavevmode%
+%%  \@tempdimb=2.4375ex%
+%%  \ifnum\beamer@subsectionmax<\beamer@sectionmax%
+%%    \multiply\@tempdimb by\beamer@sectionmax%
+%%  \else%
+%%    \multiply\@tempdimb by\beamer@subsectionmax%
+%%  \fi%
+%%  \ifdim\@tempdimb>0pt%
+%%    \advance\@tempdimb by 1.125ex%
+%%%      \includegraphics[width=0.3\paperwidth]{Odense_theme/sdu_logo}%
+%%      \vbox to\@tempdimb{\vfil\insertsectionnavigation{.7\paperwidth}\vfil}%
+%%  \fi%
+%%}
+\fi
+
+\defbeamertemplate*{footline}{Odense theme}
+{
+  \leavevmode%
+%  \hbox{%
+%\hspace*{2ex}\usebeamerfont{author in head/foot}\insertauthor
+%}
+  \hfill
+  \hbox{%
+%\inserttitle
+%\insertauthor
+ %   \usebeamerfont{title in head/foot}\insertshorttitle\hspace*{2ex}%
+   \insertframenumber{} %
+%/ \inserttotalframenumber\hspace*{2ex}}%
+} 
+ \vskip2pt%
+}
+%%
+%%\defbeamertemplate*{frametitle}{Odense theme}[1][left]
+%%{
+%%  \ifbeamercolorempty[bg]{frametitle}{}{\nointerlineskip}%
+%%  \@tempdima=\textwidth%
+%%  \advance\@tempdima by\beamer@leftmargin%
+%%  \advance\@tempdima by\beamer@rightmargin%
+%%  \begin{beamercolorbox}[sep=0.3cm,#1,wd=\the\@tempdima]{frametitle}
+%%    \usebeamerfont{frametitle}%
+%%    \vbox{}\vskip-1ex%
+%%    \if@tempswa\else\csname beamer@fte#1\endcsname\fi%
+%%    \hfill\insertframetitle\hfill\par%
+%%    {%
+%%      \ifx\insertframesubtitle\@empty%
+%%      \else%
+%%      {\usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\hfill\insertframesubtitle\hfill\par}%
+%%      \fi
+%%    }%
+%%    \vskip-1ex%
+%%    \if@tempswa\else\vskip-.3cm\fi% set inside beamercolorbox... evil here...
+%%  \end{beamercolorbox}%
+%%}
+%%
+
+
+
+%\input{sls-slides.def}
+%\input{commands}
+
+\newcommand{\ie}{{\it{}i.e.\/}}
+\newcommand{\eg}{{\it{}e.g.\/}}
+\newcommand{\vs}{{\color{white!40!black} \emph{vs}~}}
+
+
+\newdimen\mycm
+%\mycm=0.2cm
+\newdimen\radius
+%\input{commands}
+
+
+\usepackage[vlined]{algorithm2e}
+\setalcapskip{1ex} %define distance caption-box in the style algorithm2e
+\setalcapskip{1ex} %define distance caption-box in the style algorithm2e
+\SetAlCapFnt{\small}
+\SetAlCapFnt{\small}
+\SetAlTitleFnt{textsl}
+  \SetArgSty{}
+  \SetKw{Procedure}{Procedure}
+  \SetKw{Return}{\textbf{return}}
+  \SetKwInOut{Input}{input}
+  \SetKwInOut{Output}{output}
+  \SetKwComment{Comment}{$\%$~}{}
+\SetFillComment
+\SetSideCommentRight
+\SetCommentSty{textrm}
+\setlength{\algomargin}{2em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\usepackage{listings}
+\lstset{
+  % numberblanklines=false,
+  % showstringspaces=false,
+  basicstyle=\ttfamily\footnotesize,
+  %stringstyle=\ttfamily,
+  commentstyle=\rmfamily\emph,
+   keywordstyle=\color{black}\bfseries\underbar,
+  inputencoding=latin1,
+  tabsize=2,
+  extendedchars=true,
+  % frame=tb,%shadowbox,
+  breaklines=true,
+  % resetmargins=true,
+  % captionpos=t,
+  frame=single,
+  framerule=0pt,
+  columns=fullflexible,
+  escapeinside={(*}{*)},
+  procnamekeys={procedure},
+  backgroundcolor=\color{blue!5},
+  morekeywords={procedure, while, do, if, then, begin, end}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+
+
+
+\AtBeginSection[]
+{
+  \frame<1| article:0>{
+    %\frametitle{\vskip2.5ex\vskip4pt Outline}
+    \frametitle{Outline}
+    \tableofcontents[currentsubsection,subsubsectionstyle=hide]
+  }
+}
+
+
+\AtBeginSubsection[]
+{
+  \frame<1| article:0>{
+    %\frametitle{\vskip2.5ex\vskip4pt Outline}
+    \frametitle{Outline}
+    \tableofcontents[currentsubsection,subsubsectionstyle=hide]%subsectionstyle=hide]
+  }
+}
+%
+
+
+\mode
+<all>

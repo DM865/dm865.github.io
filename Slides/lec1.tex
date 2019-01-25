@@ -1,0 +1,371 @@
+%\documentclass[handout,usepdftitle=false,smaller,compress,sans,fleqn,xcolor=dvipsnames,fleqn,table]{beamer}
+
+% for transparencies
+
+% \class[handout]{beamer}
+% for handouts
+
+% \documentclass[smaller,sans,mathserif,trans,notes=show]{beamer}
+% show navigation map on top right
+%\documentclass[smaller,sans,fleqn,xcolor=dvipsnames,fleqn,table,mathserif]{beamer}
+% DO NOT show navigation map on top right
+%\documentclass[smaller,compress,sans,fleqn,xcolor=dvipsnames,fleqn,table,mathserif]{beamer}
+% SHOW only sec title on top right
+%\documentclass[smaller,handout,notes=show,onlysecheader,sans,fleqn,xcolor=dvipsnames,fleqn,table,mathserif]{beamer} 
+%\documentclass[ignorenonframetext,smaller,subsecheader,sans,fleqn,xcolor=dvipsnames,fleqn,table,stillsansserifmath,stillsansseriftext,stillsansserifsmall,stillsansseriflarge]{beamer}
+%onlysecheader
+
+\documentclass[ignorenonframetext,smaller,compress,sans,fleqn,xcolor=dvipsnames,fleqn,table,stillsansserifmath,stillsansseriftext,stillsansserifsmall,stillsansseriflarge]{beamer}
+
+%\documentclass[ignorenonframetext,smaller,subsecheader,sans,fleqn,xcolor=dvipsnames,fleqn,table,stillsansserifmath,stillsansseriftext,stillsansserifsmall,stillsansseriflarge]{beamer}
+
+%try also :
+%\documentclass[11pt]{article}\usepackage{beamerarticle}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+
+\usetheme{Odense}
+
+% files to be included: intro.tex | {commands.tex, beamermysplit.sty}; close.tex
+
+
+\usepackage{intro}
+\usepackage{definitions}
+%\usepackage{stefano}
+%\usepackage{lstampl}
+%\lstset{language=ampl}
+%\usepackage{arydshln,leftidx,mathtools}% http://ctan.org/pkg/{arydshln,leftidx,mathtools}
+%\setlength{\dashlinegap}{2pt}
+%\usepackage{etoolbox}
+%\AtBeginEnvironment{array}{\setlength{\arraycolsep}{0ex}}
+%\setlength{\arraycolsep}{0.5mm}
+%\addtolength{\arraycolsep}{0mm}
+%\setlength{\mathindent}{0pt}
+
+\graphicspath{{Figures/}{Figures-EMAA/}}
+\usepackage{fancyvrb}
+\RecustomVerbatimEnvironment{Verbatim}{Verbatim}{xleftmargin=0mm}
+
+\title{{\color{black}\normalfont\small DM865}\\
+}
+\author{}
+\date{}
+
+\begin{document}
+
+\frame[plain]{%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\titlepage
+
+
+%\begin{flushright} [\emph{Slides by Stefano Gualandi, Politecnico di
+%    Milano}]
+%\end{flushright}
+}
+%
+
+\frame{%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \frametitle{Outline}
+  \tableofcontents
+}
+%
+
+
+\section{Course Organization}
+
+\begin{frame}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \frametitle{Course Organization}
+
+This course is about Discrete Optimization via:
+\medskip\begin{itemize}
+
+\item Approximation Algorithms
+\item Heuristics 
+\end{itemize}
+
+\bigskip
+\bigskip
+
+\pause
+\begin{columns}[T,onlytextwidth]
+  \column{0.5\textwidth}
+\textbf{Problems:}
+
+
+\begin{itemize}
+  \itemsep=1ex
+\item Set Cover
+\item TSP
+\item SAT
+\item Knapsack
+\item Scheduling
+\item Bin Packing
+\item Bonus: the project problem
+  \end{itemize}
+
+
+\column{0.5\textwidth}
+\textbf{Techniques:} 
+
+
+\begin{itemize}
+  \itemsep=1ex
+\item LP-rounding
+\item Primal-Dual
+\item Randomized LP rounding
+
+\medskip
+\item Construction Heuristics
+\item Local Search
+\item Metaheuristics
+\item Implementation Framework
+\item Efficiency issues
+\item Experimental Analysis
+  \end{itemize}
+
+\end{columns}
+
+\end{frame}
+
+
+
+
+
+\frame{
+\frametitle{Schedule}
+
+\begin{itemize}
+\itemsep=2ex
+
+
+\item Class schedule:
+  %\medskip
+  \begin{itemize}
+    %\itemsep=3ex
+
+  \item See course web page: \url{dm865.github.io}
+  \item \url{mitsdu.sdu.dk}
+  \item Changes can occur (reload web page often)
+  \end{itemize}
+
+\bigskip
+\medskip
+\pause
+\item Workload:
+\begin{itemize}
+\item Intro phase: 42 hours
+\item Skills training phase: 42 hours
+\end{itemize}
+
+
+
+\end{itemize}
+
+}
+
+
+
+
+
+  \begin{frame}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \frametitle{Communication media}
+    \medskip\begin{itemize}\itemsep=3ex
+    
+\item Public Web Page [WWW] $\Leftrightarrow$ BlackBoard \url{e-learn.sdu.dk} [BB]\\
+ (links from and to each others)
+\item \alert{Announcements} in [BB]
+\item \alert{Course Documents} in [BB] (unless linked from [WWW]) 
+%\item \alert{Discussion Board} (anonymous) in [BB]
+\item Personal email \url{lenem@imada.sdu.dk}, \url{marco@imada.sdu.dk}
+\item Office visits
+
+\medskip
+
+\item \alert{Mid term evaluation} in class
+%\item You are welcome to visit me in my office in working hours (8-16).
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \frametitle{Literature}
+
+\begin{itemize}
+\itemsep=3ex
+\item[WS] David P. Williamson and David B. Shmoys. Design of Approximation Algorithms. Cambridge University Press. 2010.
+
+  \item[MAK] W. Michiels, E. Aarts and J. Korst. \alert{Theoretical Aspects of
+    Local Search}. Springer Berlin Heidelberg, 2007
+\end{itemize}
+
+\bigskip
+
+Other articles
+\end{frame}
+
+
+
+\frame{%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \frametitle{Evaluation (1/3)}
+
+  \medskip
+  \begin{itemize}
+    \itemsep=3ex
+
+  \item Two practical assignments:\\
+    \textbf{Part I:}\\
+    Local search and experimental analysis for a routing problem \\
+    \textbf{Part II:}\\
+    Builds up on Part I:\\
+    Metaheuristics for a routing problem
+
+  \item Oral exam in June.\\ No preparation, External censor, 7-scale grade.
+
+  \end{itemize}
+}
+
+
+\frame{%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \frametitle{Evaluation (2/3)}
+\begin{itemize}\itemsep=3ex
+
+\item The final grade depends on the three parts.
+
+\item The assignments will be graded by the teacher and receive a score.
+
+\item The assignments will be available to the censor at the oral exam.
+   
+  \item Ten minutes of the oral exam on the assignments\\
+    Ten minutes on the other part of the syllabus (approximation algorithms).
+
+  \item The assignments must be carried out in pairs. The pairs must
+    change between part 1 and 2.
+
+  \item Communication between groups not allowed.
+
+\end{itemize}
+
+
+}
+
+
+\begin{frame}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \frametitle{Evaluation (3/3)}
+  
+\begin{itemize}\itemsep=3ex
+    \item The assignments are meant for learning. There will be
+      discussion classes where we will help you with your questions.
+    \item You should be able to improve during the time of the course.\\
+Hence it matters most to us what you can do at the end.
+\item If you had trouble with one assignments you should still be able to get 12.
+\item If you have done well in the exercises but know nothing at the
+  time of the exam you should still be able to fail.
+\item But this does not mean that the assignments should be taken
+  lightly, they do have an influence and they are perhaps the part where
+  you will really learn to solve problems.
+\end{itemize}
+\end{frame}
+
+\begin{frame}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \frametitle{Practical Assignments}
+
+  \medskip\begin{itemize}\itemsep=3ex
+    \item  Really practical! $\leadsto$ programming in Python 3.\\
+ (Refresh it until you have time).
+
+\item You will be provided with a starting framework but expect quite
+  some work. The problem is quite challenging.
+
+
+\item It would be nice if you could use R for the analysis of
+  data.\\ (Some code examples might be provided but R will be useful in
+  your carrer, learn it!)
+ 
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \frametitle{Practical Assignments: Contents}
+
+
+
+  \medskip\begin{itemize}\itemsep=3ex
+\item Algorithm \alertb{design}
+\item \alertb{Modeling}
+\item \alertb{Implementation} (deliverable and checkable source code)
+\item Written \alertb{description}
+\item (Analytical) and experimental \alertb{analysis}
+\item Performance counts!
+\end{itemize}
+
+\pause
+\bigskip
+Currently evaluating a web submission with automatic check, execution and comparison.
+
+\bigskip
+We hope you will have fun!
+\end{frame}
+
+
+
+
+
+
+\begin{frame}<0|handout:0>%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \frametitle{Practical Assignments: Learning Objectives}
+
+
+\medskip
+\begin{itemize}
+  \itemsep=2ex
+\item \alert{model} a problem similar in nature to the ones seen in the course
+  within the framework of local search and metaheuristics
+%\item \alert{argue} about the different modeling choices arising from the theory
+%  behind the components of constraint programming, including global
+%  constraints, propagators, search and branching schemes.
+%\item \alert{develop} a solution prototype in a constraint programming system
+\item \alert{design} specialized versions of general purpose heuristics:
+  construction heuristics and local search
+\item \alert{develop} a solution prototype in a local search framework
+\item \alert{undertake an experimental analysis}, report the results and draw
+  sound conclusions based on them
+\item \alert{describe} the work done in an appropriate language including pseudocode
+\end{itemize}
+
+
+  \end{frame}
+
+
+
+
+
+
+\begin{frame}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \frametitle{Active Participation}
+
+  \medskip\begin{itemize}\itemsep=3ex
+  \item We expect you to stay up-to-date with the course\\
+The literature is not mandatory to read, you can get along well with
+slides and lecture notes.
+    \item Please ask questions!
+    \item Experiment and explore
+    \item Work with others
+    \item Give us feedback.
+    \end{itemize}
+  \end{frame}
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
