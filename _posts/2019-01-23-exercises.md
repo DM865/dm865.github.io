@@ -25,3 +25,16 @@ categories: exercises sheet1
 
 2. Describe an algorithm for finding an Euler tour in a graph where
    all vertices have even degree.
+
+3. a) Give an example where Christofide's Algorithm produces a better
+      solution than the Double Tree Algorithm.
+      More specifically, give a graph and concrete runs of the two
+      algorithms on the graph such that Christofide's Algorithm
+      produces a cycle of smaller total weight than the Double Tree
+      Algorithm.
+
+   b) Do a) again, but such that the Double Tree Algorithm gives the
+      better result.
+      
+   c) How many nodes do you need to construct the examples in a) and
+      b)?
