@@ -32,7 +32,7 @@ show_downloads: false
 # google_analytics: [Your Google Analytics tracking ID]
 
 
-exclude: [ "latex" ]
+exclude: [ "latex", "Slides" ]
 
 collections:
   - notes
