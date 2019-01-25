@@ -1,0 +1,240 @@
+% \usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+
+%\usepackage{pgf}
+\usepackage{tabularx}
+%\usepackage{euler}
+
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{amscd}
+
+\usepackage{etex}
+\usepackage{tikz}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit,matrix}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hypersetup{pdftitle={}} % sets the title of the pdf document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\usepackage{pifont}
+
+%http://www.nabble.com/conflict-with-dingbat-checkmark-and-pgf-td24602151.html
+%\show\checkmark                % to have a look at the original definition
+\newcommand{\beamercheckmark}{} % make sure it does not yet exist
+\let\beamercheckmark\checkmark  % save its contents in this command
+\let\checkmark\relax            % make \checkmark look undefined
+\usepackage{dingbat}
+
+\usepackage{pdfsync}
+
+\usepackage[square]{natbib}
+\renewcommand{\bibsection}{}
+\renewcommand\bibname{}
+
+
+
+\usepackage{multimedia}
+%\usepackage{enumerate}
+\usepackage{booktabs}
+
+\usepackage{colortbl}
+
+
+\setbeamertemplate{items}[triangle]
+\setbeamercolor{itemize item}{fg=black,bg=black}
+\setbeamercolor{itemize subitem}{fg=black,bg=black}
+\setbeamercolor{itemize subsubitem}{fg=black,bg=black}
+\setbeamertemplate{items}[circle]
+
+
+
+\mode<presentation|handout>{
+
+
+\usepackage{listings}
+  \lstset{
+    language=R,
+    basicstyle=\ttfamily\footnotesize,
+    %basicstyle=\color{white!20!black}\scriptsize\sffamily,
+    stringstyle=\color{red}\ttfamily,
+    commentstyle=\color{gray}\ttfamily,
+    morecomment=[l][\color{magenta}]{\#},
+    showstringspaces=false, % no special string spaces
+%    % numberblanklines=false,
+%    showspaces=false,
+%    showtabs=false,
+%    %emph={var, int, range, UniformDistribution, Solver, ConstraintSystem},
+%    emphstyle=\color{blue}\bfseries,
+%    %stringstyle=\ttfamily,
+%    %  commentstyle=\color{red}\sffamily\emph,
+%    %   keywordstyle=\color{white!20!black}\bfseries,
+%    inputencoding=utf8,
+%    tabsize=2,
+%    extendedchars=true,
+%    %  frame=tb,%shadowbox,
+%    breaklines=true,
+%    xleftmargin=1pt,
+%    xrightmargin=1pt,
+%    % resetmargins=true,
+%    % captionpos=t,
+%    frame=single,
+    framexleftmargin=5pt,
+    framexbottommargin=5pt,
+    framextopmargin=5pt,
+     framexrightmargin=5pt,
+%    framerule=0pt,
+%    frameround=tttt,
+%    rulecolor=\color{GecodeContour},
+%    % framerulecolor=\color{GecodeContour}, %\color[RGB]{250, 200, 150} % red!80!white},
+%    columns=fullflexible,
+%    escapeinside={(*}{*)},
+%    % procnamekeys={procedure},
+    backgroundcolor=\color{white!90!black},
+    %backgroundcolor=\color[RGB]{204, 255, 153},
+%    backgroundcolor=\color[RGB]{255, 255, 153},
+%    backgroundcolor=\color{GecodeOrange},
+      escapeinside={(*@}{@*)},
+      morekeywords={},
+    prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+%    numbers=left
+  }
+}
+  % numberblanklines=false,
+  % showstringspaces=false,
+% basicstyle=\footnotesize\ttfamily,
+%  %stringstyle=\ttfamily,
+%  commentstyle=\rmfamily\emph,
+%   keywordstyle=\bfseries,
+%  inputencoding=latin1,
+%  tabsize=2,
+%  extendedchars=true,
+%  frame=tb,%shadowbox,
+%  breaklines=true,
+%  xleftmargin=1pt,
+%  xrightmargin=1pt,
+%  % resetmargins=true,
+%  % captionpos=t,
+%  frame=none,
+%framexleftmargin=5pt,
+%framexbottommargin=5pt,
+%framextopmargin=5pt,
+%framexrightmargin=5pt,
+%frameround=tttt,
+%framerule=0pt,
+%%framerulecolor=\color[RGB]{250, 200, 150} % red!80!white},
+%  columns=fullflexible,
+%  escapeinside={(*}{*)},
+%  %procnamekeys={procedure},
+%  %backgroundcolor=\color{white!90!black},
+%backgroundcolor=\color[RGB]{250, 230, 100},
+% morekeywords={selectMax, selectMin, select, cout, procedure, while, do, if, then, begin, end}
+
+
+
+\usepackage{colortbl}
+
+\usepackage[vlined]{algorithm2e}
+%\setalcapskip{1ex} %define distance caption-box in the style algorithm2e
+\SetAlCapFnt{\small}
+\SetAlCapFnt{\small}
+\SetAlTitleFnt{textsl}
+\SetArgSty{}
+\SetKw{Procedure}{Procedure}
+\SetKw{Return}{\textbf{return}}
+\SetKwInOut{Input}{input}
+\SetKwInOut{Output}{output}
+\SetKwComment{Comment}{$\%$~}{}
+\SetFillComment
+\SetSideCommentRight
+\SetCommentSty{textrm}
+\setlength{\algomargin}{2em}
+%
+
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit,shapes,calc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\setbeamercovered{invisible}
+% \renewcommand{\alert}{\textbf}
+\setbeamercolor{alerted text}{fg=blue}
+% \usecolortheme[named=black]{structure}
+\definecolor{mymagenta}{cmyk}{0,0.7,0,0.6}
+\setbeamercolor{math text}{fg=mymagenta}
+\setbeamersize{text margin left=0.7cm,text margin right=0.7cm}
+% 
+% \newcommand{\func}[1]{{\sl{}#1}}
+% \newcommand{\ie}{{\it{}i.e.\/}}
+% \newcommand{\eg}{{\it{}e.g.\/}}
+% \newcommand{\vs}{{\it{}vs\/}}
+% \newcommand{\vbar}{$\,\;|$\hspace*{-1em}\raisebox{-0.3mm}{$\,\;\;|$}}
+% \newcommand{\vend}{$\,\:\lfloor$}
+% 
+\newdimen\mycm
+% \mycm=0.2cm
+\newdimen\radius
+
+\newcommand{\usecol}{block body example}
+% \newcommand{\coldef}{block body example.bg}
+\newcommand{\coldef}{white}
+% \newcommand{\colemph}{block title.bg}
+\newcommand{\colemph}{white}
+\newcommand{\usecolemph}{block title}
+\setbeamercolor{meta}{use=\usecol,fg=black,bg=\coldef}
+\newcommand{\onehalf}{0.35\paperheight}
+\setlength{\itemsep}{3ex}
+
+
+
+% \setbeamercolor{block body}{use=grey,fg=black,bg=grey!30}
+\setbeamercolor{block title}{fg=blue}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\author[]{Marco Chiarandini}
+\institute{Department of Mathematics \& Computer Science\\
+  University of Southern Denmark}
+% \date{\today}
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\AtBeginPart{\frame{\partpage}
+ \begin{frame}
+    \frametitle{Outline}
+    \tableofcontents[part=\insertpartnumber]
+  \end{frame}
+}
+
+\AtBeginSection[]
+{
+%  \begin{frame}
+%    \frametitle{Outline}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+}
+%
+\AtBeginSubsection[]
+{
+  \frame<1| handout=1>{%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \frametitle{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  }
+}
+%
+% \AtBeginSubsubsection[]
+% {  \begin{frame}
+%     \frametitle{Outline}
+%     \tableofcontents[currentsection,currentsubsection,currentsubsubsection]
+%   \end{frame}
+% }
+% 
+

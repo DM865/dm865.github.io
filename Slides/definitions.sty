@@ -1,0 +1,199 @@
+
+%\mode<presentation|handout>{\newcommand{\newblock}{}}
+\newcommand{\Rnote}[1]{\footnotesize #1}
+
+\newcommand{\mycite}[1]{{\small\color{white!40!black} [#1]}}
+\newcommand{\mycitep}[1]{{\small\color{white!30!black} \citep{#1}}}
+\newcommand{\mycitepa}[1]{{\small\color{white!30!black} \citep*{#1}}}
+
+\newcommand{\alertb}[1]{{\color{green!60!black} #1}}
+\newcommand{\alerta}[1]{{\color{red} #1}}
+
+\newcommand{\var}[1]{\ensuremath{\mathtt{#1}}}
+\newcommand{\sched}[3]{$#1\:|\:#2\:|\:#3$}
+\newcommand{\real}[0]{$\mathbb{R}$}
+\newcommand{\complex}[0]{$\mathbb{C}$}
+\newcommand{\naturlig}[0]{$\mathbb{N}$}
+%\newcommand{\p}[0]{{\em P}}
+%\newcommand{\pr}[0]{{\em P$_{\mathbb{R}}$}}
+%\newcommand{\np}[0]{{\em NP}}
+%\newcommand{\npr}[0]{{\em NP$_{\mathbb{R}}$}}
+%\newcommand{\npo}[0]{{\em NPO}}
+%\newcommand{\npor}[0]{{\em NPO$_{\mathbb{R}}$}}
+%\newcommand{\npormax}[0]{{\em NPO$_{\mathbb{R},max}$}}
+%\newcommand{\npormin}[0]{{\em NPO$_{\mathbb{R},min}$}}
+%\newcommand{\apx}[0]{{\em APX}}
+%\newcommand{\maxnpr}[0]{{\em MAX-NP$_{\mathbb{R}}$}}
+%\newcommand{\maxsigmanulr}[0]{{\em MAX-$\Sigma_{0,\mathbb{R}}$}}
+%\newcommand{\maxsigmaetr}[0]{{\em MAX-$\Sigma_{1,\mathbb{R}}$}}
+%\newcommand{\maxpietr}[0]{{\em MAX-$\Pi_{1,\mathbb{R}}$}}
+%\newcommand{\maxpitor}[0]{{\em MAX-$\Pi_{2,\mathbb{R}}$}}
+%\newcommand{\minnpr}[0]{{\em MIN-NP$_{\mathbb{R}}$}}
+%\newcommand{\minsigmanulr}[0]{{\em MIN-$\Sigma_{0,\mathbb{R}}$}}
+%\newcommand{\minpietr}[0]{{\em MIN-$\Pi_{1,\mathbb{R}}$}}
+
+\def\p{P}
+\def\pr{P_{\mathbb{R}}}
+\def\np{NP}
+\def\npr{NP_{\mathbb{R}}}
+\def\vp{VP}
+\def\vnp{VNP}
+\def\npo{NPO}
+\def\npor{NPO_{\mathbb{R}}}
+\def\npormax{NPO_{\mathbb{R}, max}}
+\def\npormin{NPO_{\mathbb{R}, min}}
+\def\apx{APX}
+\def\ptas{PTAS}
+\def\fptas{FPTAS}
+\def\apxr{APX_{\mathbb{R}}}
+\def\apxrmax{APX_{\mathbb{R}, max}}
+\def\apxrmin{APX_{\mathbb{R}, min}}
+\def\ptasr{PTAS_{\mathbb{R}}}
+\def\ptasrmax{PTAS_{\mathbb{R}, max}}
+\def\ptasrmin{PTAS_{\mathbb{R}, min}}
+\def\fptasr{FPTAS_{\mathbb{R}}}
+\def\fptasrmax{FPTAS_{\mathbb{R}, max}}
+\def\fptasrmin{FPTAS_{\mathbb{R}, min}}
+\def\imply{\ding{232}~}
+
+\mode<presentation|handout>{\def\remark{\ensuremath{\rightsquigarrow}}}
+\mode<article>{\def\remark{{\bf Remark:}}}
+
+\DeclareMathOperator{\median}{median}
+\DeclareMathOperator{\argmax}{argmax}
+\DeclareMathOperator{\argmin}{argmin}
+\DeclareMathOperator{\st}{s.t.}
+
+\renewcommand{\Problem}{\cal{P}}
+\newcommand{\Class}{\Pi}
+\newcommand{\Ins}{\pi}
+
+
+\newcommand{\ie}{{\it{}i.e.\/}}
+\newcommand{\eg}{{\it{}e.g.\/}}
+\newcommand{\vs}{{\color{white!40!black} \emph{vs}~}}
+
+
+\newdimen\mycm
+%\mycm=0.2cm
+\newdimen\radius
+%\input{commands}
+
+
+
+
+\newcommand{\tc}[2]{\textcolor{#1}{#2}}
+\newcommand{\ct}[1]{\textcolor{grey}{#1}}
+
+
+\newcounter{enum}
+\renewenvironment{enumerate}{%
+\begin{list}{\color{gray}\small\arabic{enum}.}
+{\usecounter{enum}}}
+{\end{list}}
+
+\newcommand{\resize}{}
+\newcommand{\sce}[4]{\ensuremath{\resize\langle #1 \resize,
+    #3 \resize(#2 \resize), #4 \resize\rangle}}
+
+\newcommand{\scebf}[4]{\ensuremath{\mathbf{\resize\langle #1 \resize,
+    #3 \resize \resize(#2 \resize), #4 \resize\rangle}}}
+
+
+% Upright Lower Case Greek letters without using a new MathAlphabet
+\newcommand{\greeksym}[1]{\usefont{U}{psy}{m}{n}#1}
+\newcommand{\greeksymbold}[1]{{\usefont{U}{psy}{b}{n}#1}}
+\newcommand{\allmodesymb}[2]{\relax\ifmmode{\mathchoice
+{\mbox{\fontsize{\tf@size}{\tf@size}#1{#2}}}
+{\mbox{\fontsize{\tf@size}{\tf@size}#1{#2}}}
+{\mbox{\fontsize{\sf@size}{\sf@size}#1{#2}}}
+{\mbox{\fontsize{\ssf@size}{\ssf@size}#1{#2}}}}
+\else
+\mbox{#1{#2}}\fi}
+
+\renewcommand{\pmb}{\boldsymbol}
+\newcommand{\bX}{\ensuremath{\mathbf{X}}}
+\newcommand{\bY}{\ensuremath{\mathbf{Y}}}
+\newcommand{\by}{\ensuremath{\mathbf{y}}}
+\newcommand{\bb}{\ensuremath{\mathbf{b}}}
+\newcommand{\bB}{\ensuremath{\mathbf{B}}}
+\newcommand{\bZ}{\ensuremath{\mathbf{Z}}}
+
+%upright Greek letters (example below: upright "mu")
+%\ubeta
+\newcommand{\ubbeta}{\boldsymbol{\beta}}
+\newcommand{\ubeta}{\allmodesymb{\greeksym}{b}}
+%\newcommand{\ubbeta}{\pmb{\ubeta}}
+
+\newcommand{\utheta}{\allmodesymb{\greeksym}{q}}
+\newcommand{\ubtheta}{\pmb{\utheta}}
+\newcommand{\ubTheta}{\pmb{\varTheta}}
+
+\newcommand{\usigma}{\allmodesymb{\greeksym}{s}}
+%\newcommand{\ubsigma}{\allmodesymb{\greeksymbold}{s}}
+\newcommand{\ubsigma}{\pmb{\usigma}}
+
+%\newcommand{\uSigma}{\allmodesymb{\greeksym}{S}}
+\newcommand{\uSigma}{\varSigma}
+%\newcommand{\ubSigma}{\allmodesymb{\greeksymbold}{S}}
+\newcommand{\ubSigma}{\boldsymbol{\varSigma}}
+
+
+\newcommand{\uepsilon}{\allmodesymb{\greeksym}{e}}
+\newcommand{\ubepsilon}{\boldsymbol{\epsilon}}
+%\newcommand{\ubepsilon}{\pmb{\uepsilon}}
+%\newcommand{\ubalpha}{\pmb{\ualpha}}
+\newcommand{\ubalpha}{\pmb{\alpha}}
+%\umu
+\newcommand{\ubmu}{\boldsymbol{\mu}}
+%\newcommand{\ubmu}{\pmb{\umu}}
+%\ubeta
+
+
+
+\newcommand{\done}{\ding{52}}
+\newcommand{\crossa}{\ding{54}}
+\newcommand{\crossb}{\ding{56}}
+\mode<presentation|handout>{\def\remark{\ensuremath{\rightsquigarrow}}}
+\mode<article>{\def\remark{{\bf Remark:}}}
+
+\newcommand{\vbar}{$\,\;|$\hspace*{-1em}\raisebox{-0.3mm}{$\,\;\;|$}}
+\newcommand{\vendbar}{\raisebox{+0.4mm}{$\,\;|$}}
+\newcommand{\vend}{$\,\:\lfloor$}
+\newcommand{\func}[1]{{\color{magenta}\tt{}#1}}
+%\newcommand{\func}[1]{{\sl{}#1}}
+
+\newcommand{\param}[1]{\texttt{#1}}
+
+\newcommand{\smiley}{%
+\noindent\raisebox{-5pt}[0pt][0pt]{\includegraphics[width=1.25em]{smiley}}}
+\newcommand{\frowny}{%
+\noindent\raisebox{-5pt}[0pt][0pt]{\includegraphics[width=1.25em]{frowny}}}
+
+
+
+\definecolor{mymagenta}{cmyk}{0,0.8,0,0.4}
+\setbeamercolor{math text}{fg=mymagenta}
+
+
+
+
+\tikzstyle{alm}=[circle, thick, minimum size=0.8cm, draw=black, fill=white]
+\tikzstyle{skrav}=[circle, thick, minimum size=0.8cm, draw=black, fill=black!20]
+\tikzstyle{grey}=[circle, thick, minimum size=0.8cm, draw=black!20, fill=black!20]
+\tikzstyle{skgrey} = [draw=black!50,fill=black!50,text=white]
+\tikzstyle{skora} = [draw=orange,fill=orange,text=white]
+\tikzstyle{skgreen} = [draw=green!60!black,fill=green!60!black,text=white]
+\tikzstyle{skred} = [draw=red!95!black,fill=red!95!black,text=white]
+%\tikzstyle{sk1}=[minimum height=0.6cm, minimum width=0.6cm]
+%\tikzstyle{sk2}=[minimum height=0.6cm, minimum width=2*0.7cm+0*0.8cm]
+%\tikzstyle{sk3}=[minimum height=0.6cm, minimum width=2*0.7cm+1*0.8cm]
+%\tikzstyle{sk4}=[minimum height=0.6cm, minimum width=2*0.7cm+2*0.8cm]
+%\tikzstyle{sk5}=[minimum height=0.6cm, minimum width=2*0.7cm+3*0.8cm]
+
+\tikzstyle{sk1}=[minimum height=0.4cm, minimum width=0.4cm]
+\tikzstyle{sk2}=[minimum height=0.4cm, minimum width=2*0.5cm+0*0.6cm]
+\tikzstyle{sk3}=[minimum height=0.4cm, minimum width=2*0.5cm+1*0.6cm]
+\tikzstyle{sk4}=[minimum height=0.4cm, minimum width=2*0.5cm+2*0.6cm]
+\tikzstyle{sk5}=[minimum height=0.4cm, minimum width=2*0.5cm+3*0.6cm]
+
