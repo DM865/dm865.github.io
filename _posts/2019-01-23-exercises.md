@@ -23,6 +23,8 @@ categories: exercises sheet1
 
     c) Why doesn't this contradict Theorem 2.9?
 
+2. Argue that the metric TSP is NP-hard.
+
 2. Describe an algorithm for finding an Euler tour in a graph where
    all vertices have even degree.
 
