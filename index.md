@@ -132,4 +132,4 @@ The overview will be continuously updated during the course.
 
 
 [1]: {{ "/assets/dm865-presentation-handout.pdf" | absolute_url }}
-[2]: {{ "/Slides/organization.pdf" | absolute_url }}
+[2]: {{ "/assets/dm865-organization-handout.pdf" | absolute_url }}
