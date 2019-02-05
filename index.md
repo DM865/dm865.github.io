@@ -133,4 +133,4 @@ The overview will be continuously updated during the course.
 
 [1]: {{ "/assets/dm865-presentation-handout.pdf" | absolute_url }}
 [2]: {{ "/assets/dm865-organization-handout.pdf" | absolute_url }}
-[3]: {{ "/assets/dm865-lec180204.pdf" | absolute_url }}
+[3]: {{ "/assets/dm865-lec190204.pdf" | absolute_url }}
