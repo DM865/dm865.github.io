@@ -46,7 +46,7 @@ The overview will be continuously updated during the course.
 | Week | Date | Lectures  	                                                                                                         | Suggested reading                                                            |  
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 |    6 | 5/2  | Introduction to the course <br> Introduction to approximation algorithms <br> TSP: Insertion and the Double Tree algorithm | [Pizza meeting slides][1]; [More details][2] <br> 1.1 [WS] <br> 2.4 [WS]                        |
-|      | 7/2  | TSP: Christofide's algorithm <br> Exercises                                                                                | 2.4 [WS] <br> [Exercise sheet 1]({% post_url 2019-01-23-exercises %}#sheet1) |
+|      | 7/2  | TSP: Christofide's algorithm <br> Exercises                                                                                | 2.4 [WS]; [Lecture notes][3] <br> [Exercise sheet 1]({% post_url 2019-01-23-exercises %}#sheet1) |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 |    7 | 12/2 | TSP: Heuristics                                                                                                            | [No]; 1-4 [Be]                                                               |
 |      | 13/2 | TSP: Heuristics                                                                                                            | [No]; 1-4 [Be]                                                               |
@@ -133,3 +133,4 @@ The overview will be continuously updated during the course.
 
 [1]: {{ "/assets/dm865-presentation-handout.pdf" | absolute_url }}
 [2]: {{ "/assets/dm865-organization-handout.pdf" | absolute_url }}
+[3]: {{ "/assets/dm865-lec180204.pdf" | absolute_url }}
