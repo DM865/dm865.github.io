@@ -10,7 +10,7 @@ categories: exam
 ## Exam Guidelines
 
 
-The oral exam takes place in June 6.
+The oral exam takes place in June.
 
 When it is your turn for examination, you will draw one of the topics
 listed below:
