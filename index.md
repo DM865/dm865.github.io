@@ -124,8 +124,9 @@ The overview will be continuously updated during the course.
 - Practical assignments. 
 
 - Oral exam based on the theoretical part and the practical
-  assignments. Ordinary session in June. Reexams in August.
+  assignments. Ordinary exam in June. Reexams in August.
 
+  [Guidelines]({% post_url 2019-02-05-examGuidelines.md %})
 
 
 
