@@ -127,7 +127,7 @@ The overview will be continuously updated during the course.
   assignments. Ordinary exam in June. Reexams in August.
 
 
-
+[Guidelines]({% post_url 2019-02-05-examGuidelines %})
 
 
 
