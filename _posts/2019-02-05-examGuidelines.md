@@ -2,7 +2,7 @@
 layout: default
 mathjax: true
 title:  "Exam guidelines"
-date:   2018-05-10 09:33:19 +0100
+date:   2019-02-05 09:33:19 +0100
 categories: exam
 ---
 
