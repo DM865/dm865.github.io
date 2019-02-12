@@ -2,7 +2,7 @@
 layout: default
 mathjax: true
 title:  "Sheet 1"
-date:   2018-01-10 09:33:19 +0100
+date:   2019-01-10 09:33:19 +0100
 categories: exercises sheet1
 ---
 
@@ -40,3 +40,37 @@ categories: exercises sheet1
       
    c) How many nodes do you need to construct the examples in a) and
       b)?
+	  
+	  
+
+#### Sheet 2: <a name="sheet2"></a> Exercises for Friday, February 16
+   
+   
+1. Read the Python tutorial [No]. You find some starting code from that
+   page [here](https://github.com/DM865/TSP).
+
+2. Implement the exact methods: plain enumeration and Held Karp dynamic
+   programming algorithm.
+
+3. Following the procedure for Benchmarking described in [No] implement
+   and compare as many TSP heuristics as you can. You find a list below,
+   in bold the heuristics implemented in [No]. For a description of
+   these heuristics see [Be].
+
+   - Heuristics that Grow Fragments
+	 + **Nearest neighborhood heuristic**
+	 + Double-Ended Nearest Neighbor heuristic
+	 + **Multiple Fragment heuristic (aka, greedy heuristic)**
+   - Heuristics that Grow Tours
+	 + Nearest Addition
+	 + Farthest Addition
+	 + Random Addition
+	 + Clarke-Wright savings heuristic
+	 + Nearest Insertion
+	 + Farthest Insertion
+	 + Random Insertion
+   - Heuristics based on Trees
+	 + **Minimum spanning tree heuristic**
+	 + Christofides' heuristics
+	 + Fast recursive partitioning heuristic
+
