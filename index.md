@@ -52,7 +52,7 @@ The overview will be continuously updated during the course.
 |      | 13/2 | TSP: Heuristics                                                                                                            | [No]; sc. 1-3 [Be]                                                                                |
 |      | 14/2 | Exercises                                                                                                                  | [Exercise sheet 2]({% post_url 2019-01-23-exercises %}#sheet2)                                    |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------|
-|    8 | 19/2 | TSP: Local search                                                                                                          | sc. 4 [Be], ch 1, sc 2.1, 4.1 [MAK]                                                               |
+|    8 | 19/2 | TSP: Local search                                                                                                          | sc. 4 [Be], ch 1, sc 2.1, 4.1 [MAK]  [Slides][6]                                                              |
 |      | 21/2 | TSP: Efficiency issues in local search + Code review                                                                       |                                                                                                   |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------|
 |    9 | 26/2 | Local search theory                                                                                                        | ch 1, sc 2.1, 4.1 [MAK]                                                                           |
@@ -134,3 +134,4 @@ The overview will be continuously updated during the course.
 [3]: {{ "/assets/dm865-lec190204.pdf" | absolute_url }}
 [4]: {{ "/assets/dm865-lec190207.pdf" | absolute_url }}
 [5]: {{ "/assets/dm865-tsp-ch-handout.pdf" | absolute_url }}
+[6]: {{ "/assets/dm865-tsp-ls-handout.pdf" | absolute_url }}
