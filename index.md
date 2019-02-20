@@ -53,11 +53,11 @@ The overview will be continuously updated during the course.
 |      | 14/2 | Exercises                                                                                                                  | [Exercise sheet 2]({% post_url 2019-01-23-exercises %}#sheet2)                                    |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------|
 |    8 | 19/2 | TSP: Local search                                                                                                          | sc. 4 [Be], ch 1, sc 2.1, 4.1 [MAK]  [Slides][6]                                                              |
-|      | 21/2 | TSP: Efficiency issues in local search + Code review                                                                       |                                                                                                   |
+|      | 20/2 | TSP: Efficiency issues in local search                                                                                     |                                                                                                   |
+|      | 21/2 | Exercises on local search design                                                                                           | [Exercise sheet 3]({% post_url 2019-01-23-exercises %}#sheet3)                                                                                                   |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------|
-|    9 | 26/2 | Local search theory                                                                                                        | ch 1, sc 2.1, 4.1 [MAK]                                                                           |
-|      | 27/2 | Exercises on local search design                                                                                           |                                                                                                   |
-|      | 28/2 | SAT: Local Search                                                                                                          |                                                                                                   |
+|    9 | 27/2 | Local search theory                                                                                                        | ch 1, sc 2.1, 4.1 [MAK] [Slides][7]                                                                           |
+|      | 28/2 | SAT: Local Search                                                                                                          | [Exercise sheet 4]({% post_url 2019-01-23-exercises %}#sheet4)                                                                                                   |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------|
 |   10 | 5/3  | MAX SAT: Randomized algorithms and derandomization                                                                         | 5.1-5.3 [WS]                                                                                      |
 |      | 7/3  | MAX SAT: LP rounding                                                                                                       | 5.4-5.6 [WS]                                                                                      |
@@ -135,3 +135,4 @@ The overview will be continuously updated during the course.
 [4]: {{ "/assets/dm865-lec190207.pdf" | absolute_url }}
 [5]: {{ "/assets/dm865-tsp-ch-handout.pdf" | absolute_url }}
 [6]: {{ "/assets/dm865-tsp-ls-handout.pdf" | absolute_url }}
+[7]: {{ "/assets/dm865-local_search-handout.pdf" | absolute_url }}

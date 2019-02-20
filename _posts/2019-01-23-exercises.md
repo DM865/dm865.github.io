@@ -74,3 +74,81 @@ categories: exercises sheet1
 	 + Christofides' heuristics
 	 + Fast recursive partitioning heuristic
 
+
+
+
+
+#### Sheet 3: <a name="sheet3"></a> Exercises for Thursday, February 21.
+
+<!--
+1. In a 3-opt local search algorithm for the TSP how many possible ways
+   are there to add three new edges once three edges have been removed
+   in order to re-obtain an Hamiltonian tour? Justify your answer.
+-->
+
+
+1. In the code available in the
+   [git repository](https://github.com/DM865/TSP) you find a file
+   `local_search.py`, which contains an implementation of a 2 opt local
+   search. Study the implementation and test the results when the local
+   search is executed after different construction heuristics. Is the
+   local search implemented a first improvement or a best improvement?
+   Does the 2 opt algorithm improves the results of the construction
+   heuristics?  How many steps (changes in the solutions) are executed?
+   Which combination `construction_heuristic` + `2_opt` leads to the
+   best results (including a random initial solution)?
+   
+2. Compare the results of a *first improvement* 2 opt against those of a
+   *best improvement* 2 opt procedure. Is the comparison the same across
+   different initial solutions attained by different construction
+   heuristics (including a random solution and a canonical sequence)?
+   
+3. Try to improve the 2 opt implementation from the previous
+   point. Start by making it randomized. Then improve its execution time
+   by adopting some of the techniques explained in class.
+
+4. Consider the traveling salesman problem defined on an incomplete
+   graph. How could we encode the problem such that we can approach it
+   with the construction heuristics and local search algorithms
+   implemented for the complete graph version of the problem?
+
+5. Consider the asymmetric TSP. How can we encode this problem into a
+   symmetric TSP, such that we can approach it with the construction
+   heuristics and local search algorithms implemented for the symmetric
+   version of the problem?
+
+
+
+
+#### Sheet 4: <a name="sheet4"></a> Exercises for Thursday, February 28.
+
+Design a 3 exchange iterative improvement procedure for the TSP.  The
+procedure must return a local optimum in the 3 exchange neighborhood.
+Implement the procedure in the framework made
+[available in git](https://github.com/DM865/TSP).
+A template to be completed is available in the file `three_opt.py`. 
+
+You must only edit this file, you are not allowed to change the other
+files.  When executed, your program will read the instance USA,
+construct a canonical tour and call your iterative improvement
+procedure. The benchmarking called from the main file will take care of
+assessing the quality of your solution.
+
+Describe your algorithm in pseudocode in a one-page document edited with
+Latex. Use the Latex package
+[algorithm2e](https://ctan.org/pkg/algorithm2e?lang=en).
+
+Submit only the file `three_opt.py` and the PDF result of your Latex
+pseudocode at this [portal](http://valkyrien.imada.sdu.dk/DOApp/). Keep your
+files anonymous! (The portal is likely to become available only during
+the day before Thursday.)
+
+You are encouraged to work in pairs at this assignment, in which case it is
+enough that only one submits.
+
+Remember: start out with simple and even inefficient code without
+optimizing for efficiency. Only later, when your initial implementation
+is working and doing what you expect, start looking at efficiency
+improvements of your code (and consider the quality of the solutions as
+well.
+
