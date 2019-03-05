@@ -137,3 +137,4 @@ The overview will be continuously updated during the course.
 [6]: {{ "/assets/dm865-tsp-ls-handout.pdf" | absolute_url }}
 [7]: {{ "/assets/dm865-local_search-handout.pdf" | absolute_url }}
 [8]: {{ "/assets/dm865-sat-handout.pdf" | absolute_url }}
+[9]: {{ "/assets/dm865-lec190305.pdf" | absolute_url }}
