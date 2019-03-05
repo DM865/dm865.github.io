@@ -152,3 +152,8 @@ is working and doing what you expect, start looking at efficiency
 improvements of your code (and consider the quality of the solutions as
 well.
 
+
+#### Sheet 5: <a name="sheet5"></a> Exercises for Thursday, March 7.
+
+Argue that $\text{Rand}_p$ can be derandomized to obtain a
+deterministic $p$-approximation algorithm.
