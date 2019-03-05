@@ -155,5 +155,6 @@ well.
 
 #### Sheet 5: <a name="sheet5"></a> Exercises for Thursday, March 7.
 
-Argue that $\text{Rand}_p$ (the algorithm from Section 5.3) can be
+Argue that $\text{Rand}_p$ with $p=\frac{1}{2}(\sqrt{5}-1)$ (the
+algorithm from Section 5.3) can be 
 derandomized to obtain a deterministic $p$-approximation algorithm.
