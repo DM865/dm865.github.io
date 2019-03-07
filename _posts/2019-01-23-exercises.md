@@ -176,3 +176,25 @@ Include a Makefile in the src directory. It can be empty.
 Argue that $\text{Rand}_p$ with $p=\frac{1}{2}(\sqrt{5}-1)$ (the
 algorithm from Section 5.3) can be 
 derandomized to obtain a deterministic $p$-approximation algorithm.
+
+
+#### Sheet 6: <a name="sheet6"></a> Exercises for Tuesday, March 19.
+
+1.
+  a) Write down an LP-formulation of the unweighted Vertex Cover problem.
+
+  b) Write down the dual of the LP from a).
+
+  c) Which combinatorial problem does the dual correspond to?
+
+2. Although the unweighted Vertex Cover problem is NP-hard for general
+graphs, there are graph classes that allow for efficient algorithms.
+Design an algorithm that finds a minimum cardinality vertex cover of a
+tree in linear time. 
+
+3.
+a) Assume that you have an algorithm for finding a minimum cardinality vertex cover in a graph. 
+Explain how you can use the algorithm for finding a maximum cardinality independent set.
+
+b) Does this mean that you can use an approximation algorithm for unweighted Vertex Cover, like the ones in Sections 1.3 and 1.4, for approximating a maximum cardinality independent set? 
+(Hint: What approximation factor could you obtain?)
