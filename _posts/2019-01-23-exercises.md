@@ -181,6 +181,7 @@ derandomized to obtain a deterministic $p$-approximation algorithm.
 #### Sheet 6: <a name="sheet6"></a> Exercises for Tuesday, March 19.
 
 1.
+
   a) Write down an LP-formulation of the unweighted Vertex Cover problem.
 
   b) Write down the dual of the LP from a).
