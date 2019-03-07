@@ -153,6 +153,24 @@ improvements of your code (and consider the quality of the solutions as
 well.
 
 
+Instructions for the submission to http://valkyrien.imada.sdu.dk/DOApp/:
+
+Submit separately the source code (tgz file) and the description (pdf
+file).
+
+Organize the source file like it is organized in the git repository from
+where you got the starting package. Create the archive from the root of
+the repository (that is, the directory that contains `src/`) using the
+following command:
+
+```
+tar czvf TSP.tgz * --exclude=.git --exclude=__*
+```
+
+Include a Makefile in the src directory. It can be empty.
+
+
+
 #### Sheet 5: <a name="sheet5"></a> Exercises for Thursday, March 7.
 
 Argue that $\text{Rand}_p$ with $p=\frac{1}{2}(\sqrt{5}-1)$ (the
