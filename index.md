@@ -60,7 +60,7 @@ The overview will be continuously updated during the course.
 |      | 28/2 | SAT: Local Search                                                                                                          | [Exercise sheet 4]({% post_url 2019-01-23-exercises %}#sheet4)  [Slides][8]                       |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------|
 |   10 | 5/3  | MAX SAT: Randomized algorithms and derandomization                                                                         | 5.1-5.3 [WS]; [Lecture notes][9]                                                                  |
-|      | 7/3  | Exercises <br> MAX SAT: LP rounding and Best of Two                                                                        | [Exercise sheet 5]({% post_url 2019-01-23-exercises %}#sheet5) <br> 5.4-5.6 [WS]                  |
+|      | 7/3  | Exercises <br> MAX SAT: LP rounding and Best of Two                                                                        | [Exercise sheet 5]({% post_url 2019-01-23-exercises %}#sheet5) <br> 5.4-5.6 [WS]; [Lecture notes][10] |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------|
 |   11 | 12/3 | Set Cover: IP formulation and LP relaxation<br> Set Cover: LP-rounding                                                     | 1.2 [WS] <br> 1.3-1.4 [WS]                                                                        |
 |      | 14/3 | Set Cover: Primal-Dual                                                                                                     | 1.4-1.5 [WS]                                                                                      |
@@ -138,3 +138,4 @@ The overview will be continuously updated during the course.
 [7]: {{ "/assets/dm865-local_search-handout.pdf" | absolute_url }}
 [8]: {{ "/assets/dm865-sat-handout.pdf" | absolute_url }}
 [9]: {{ "/assets/dm865-lec190305.pdf" | absolute_url }}
+[10]: {{ "/assets/dm865-lec190307.pdf" | absolute_url }}
