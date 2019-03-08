@@ -200,3 +200,10 @@ derandomized to obtain a deterministic $p$-approximation algorithm.
       unweighted Vertex Cover, like the ones in Sections 1.3 and 1.4,
       for approximating a maximum cardinality independent set?
       (Hint: What approximation factor could you obtain?)
+      
+
+#### Sheet 7: <a name="sheet7"></a> Exercises for Thursday, March 21.
+
+1. Do Exercise 5.7.
+   Hint: Using $\lambda = n \cdot \ln n \cdot Z_{\text{LP}}^*, it is
+   possible to obtain a (3 \ln n)-approximation algorithm.
