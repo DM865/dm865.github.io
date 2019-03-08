@@ -206,13 +206,13 @@ derandomized to obtain a deterministic $p$-approximation algorithm.
 
 1. Consider the primal-dual algorithm for the unweighted Vertex Cover problem.
 
-a) What does the algorithm do?
+   a) What does the algorithm do?
 
-b) Write down the same algorithm without explicitly using the
-   LP-formulation of the problem. 
+   b) Write down the same algorithm without explicitly using the
+      LP-formulation of the problem. 
 
-c) Give an example showing that the algorithm has an approximation
-   factor of at least 2.
+   c) Give an example showing that the algorithm has an approximation
+      factor of at least 2.
 
 
 2. Do Exercise 5.7.
