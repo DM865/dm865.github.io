@@ -206,4 +206,4 @@ derandomized to obtain a deterministic $p$-approximation algorithm.
 
 1. Do Exercise 5.7.
    Hint: Using $\lambda = n \cdot \ln n \cdot Z_{\text{LP}}^*$, it is
-   possible to obtain a (3 \ln n)-approximation algorithm.
+   possible to obtain a $(3 \ln n)$-approximation algorithm.
