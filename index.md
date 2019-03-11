@@ -62,7 +62,9 @@ The overview will be continuously updated during the course.
 |   10 | 5/3  | MAX SAT: Randomized algorithms and derandomization                                                                         | 5.1-5.3 [WS]; [Lecture notes][9]                                                                  |
 |      | 7/3  | Exercises <br> MAX SAT: randomized LP rounding and Best of Two                                                             | [Exercise sheet 5]({% post_url 2019-01-23-exercises %}#sheet5) <br> 5.4-5.5 [WS]; [Lecture notes][10] |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------|
-|   11 | 12/3 | Q&A on the project assignment and Sheet 4 <br> MAT SAT: Best of Two and nonlinear randomized LP rounding <br> Set Cover: deterministic LP-rounding                        | <br> 5.5-5.6 [WS] <br> 1.2-1.3 [WS]                                                                    |
+|   11 | 12/3 | Q&A on the project assignment and Sheet 4 <br> MAT SAT:
+Best of Two and nonlinear randomized LP rounding <br> Set Cover:
+deterministic LP-rounding                        | [Project part 1][11] <br> 5.5-5.6 [WS] <br> 1.2-1.3 [WS]                                                                    |
 |      | 14/3 | Set Cover: Primal-Dual                                                                                                     | 1.4-1.5 [WS]                                                                                      |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------|
 |   12 | 19/3 | Exercises <br> Set Cover: Randomized LP-rounding                                                                           | [Exercise sheet 6]({% post_url 2019-01-23-exercises %}#sheet6) <br> 1.7 [WS]                      |
@@ -139,3 +141,4 @@ The overview will be continuously updated during the course.
 [8]: {{ "/assets/dm865-sat-handout.pdf" | absolute_url }}
 [9]: {{ "/assets/dm865-lec190305.pdf" | absolute_url }}
 [10]: {{ "/assets/dm865-lec190307.pdf" | absolute_url }}
+[11]: {{ "/assets/dm865-assignment-ls.pdf" | absolute_url }}
