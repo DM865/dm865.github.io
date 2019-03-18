@@ -91,8 +91,8 @@ The overview will be continuously updated during the course.
 |   20 | 13/5 | Scheduling: Single Machine                                                                                                 |                                                                                                       |
 |      | 15/5 | Scheduling: Approximation algorithms                                                                                       | 2.3 [WS]                                                                                              |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
-|      | 21/5 | Scheduling: PTAS                                                                                                           | 3.2 [WS]                                                                                              |
-|   21 | 23/5 | Course evalutation <br> Discussion of the exam <br> Assignment of exam slots                                               |                                                                                                       |
+|   21 | 21/5 | Scheduling: PTAS                                                                                                           | 3.2 [WS]                                                                                              |
+|      | 23/5 | Course evalutation <br> Discussion of the exam <br> Assignment of exam slots                                               |                                                                                                       |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 
 
