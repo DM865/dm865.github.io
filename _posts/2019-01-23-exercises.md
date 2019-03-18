@@ -202,7 +202,7 @@ derandomized to obtain a deterministic $p$-approximation algorithm.
       (Hint: What approximation factor could you obtain?)
       
 
-#### Sheet 7: <a name="sheet7"></a> Exercises for Thursday, March 21.
+#### Sheet 7: <a name="sheet7"></a> Exercises for Tuesday, March 26.
 
 1. Consider the primal-dual algorithm for the unweighted Vertex Cover problem.
 
