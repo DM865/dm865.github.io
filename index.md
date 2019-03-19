@@ -65,7 +65,7 @@ The overview will be continuously updated during the course.
 |   11 | 12/3 | Q&A on the project assignment and Sheet 4 <br> MAT SAT: Best of Two and nonlinear randomized LP rounding                   | [Project part 1][11]; [slides][13] <br> 5.5-5.6 [WS]; [Lecture notes][12]                             |
 |      | 14/3 | Set Cover: deterministic LP-rounding <br> Set Cover: LP duality                                                            | 1.2-1.3 [WS] <br> 1.4 [WS]; [Lecture notes][14]                                                       |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
-|   12 | 19/3 | Exercises <br> Set Cover: Primal-Dual algorithm                                                                            | [Exercise sheet 6]({% post_url 2019-01-23-exercises %}#sheet6) <br> 1.4-1.5 [WS]                      |
+|   12 | 19/3 | Exercises <br> Set Cover: Primal-Dual algorithm                                                                            | [Exercise sheet 6]({% post_url 2019-01-23-exercises %}#sheet6) <br> 1.4-1.5 [WS]; [Lecture notes][15] |
 |      | 21/3 | Set Cover: Randomized LP-rounding <br> Set Cover: Greedy                                                                   |  1.7 [WS] <br> 1.6 [WS]                                                                               |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |   13 | 26/3 | Exercises <br> Set Cover: Greedy                                                                                           |[Exercise sheet 7]({% post_url 2019-01-23-exercises %}#sheet7) <br> 1.6 [WS]                           |
@@ -144,3 +144,4 @@ The overview will be continuously updated during the course.
 [12]: {{ "/assets/dm865-lec190312.pdf" | absolute_url }}
 [13]: {{ "/assets/dm865-working-handout.pdf" | absolute_url }}
 [14]: {{ "/assets/dm865-lec190314.pdf" | absolute_url }}
+[15]: {{ "/assets/dm865-lec190319.pdf" | absolute_url }}
