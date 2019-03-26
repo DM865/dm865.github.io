@@ -68,7 +68,7 @@ The overview will be continuously updated during the course.
 |   12 | 19/3 | Exercises <br> Set Cover: Primal-Dual algorithm                                                                            | [Exercise sheet 6]({% post_url 2019-01-23-exercises %}#sheet6) <br> 1.4-1.5 [WS]; [Lecture notes][15] |
 |      | 21/3 | Set Cover: Randomized LP-rounding <br> Set Cover: Greedy                                                                   |  1.7 [WS] <br> 1.6 [WS]; [Lecture notes][16]                                                          |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
-|   13 | 26/3 | Exercises <br> Set Cover: Greedy analyzed by Dual Fitting                                                                  |[Exercise sheet 7]({% post_url 2019-01-23-exercises %}#sheet7) <br> 1.6 [WS]                           |
+|   13 | 26/3 | Exercises <br> Set Cover: Greedy analyzed by Dual Fitting                                                                  |[Exercise sheet 7]({% post_url 2019-01-23-exercises %}#sheet7) <br> 1.6 [WS]; [Lecture notes][17]      |
 |      | 28/3 | Lecture cancelled                                                                                                          |                                                                                                       |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |   14 |  2/4 | Experimental Analysis of Heuristics for Optimization                                                                       |                                                                                                       |
@@ -148,3 +148,4 @@ The overview will be continuously updated during the course.
 [14]: {{ "/assets/dm865-lec190314.pdf" | absolute_url }}
 [15]: {{ "/assets/dm865-lec190319.pdf" | absolute_url }}
 [16]: {{ "/assets/dm865-lec190321.pdf" | absolute_url }}
+[17]: {{ "/assets/dm865-lec190326.pdf" | absolute_url }}
