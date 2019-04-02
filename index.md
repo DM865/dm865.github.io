@@ -71,7 +71,7 @@ The overview will be continuously updated during the course.
 |   13 | 26/3 | Exercises <br> Set Cover: Greedy analyzed by Dual Fitting                                                                  |[Exercise sheet 7]({% post_url 2019-01-23-exercises %}#sheet7) <br> 1.6 [WS]; [Lecture notes][17]      |
 |      | 28/3 | Lecture cancelled                                                                                                          |                                                                                                       |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
-|   14 |  2/4 | Experimental Analysis of Heuristics for Optimization                                                                       |                                                                                                       |
+|   14 |  2/4 | Experimental Analysis of Heuristics for Optimization                                                                       |     [Slides][18]                                                                                                   |
 |      |  4/4 | Experimental Analysis of Heuristics for Optimization: Visualization                                                        |                                                                                                       |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |   15 |  9/4 | Experimental Analysis of Heuristics for Optimization: Testing <br> Midway course evaluation                                |                                                                                                       |
@@ -149,3 +149,4 @@ The overview will be continuously updated during the course.
 [15]: {{ "/assets/dm865-lec190319.pdf" | absolute_url }}
 [16]: {{ "/assets/dm865-lec190321.pdf" | absolute_url }}
 [17]: {{ "/assets/dm865-lec190326.pdf" | absolute_url }}
+[18]: {{ "/assets/dm865-experimental-1-handout.pdf" | absolute_url }}
