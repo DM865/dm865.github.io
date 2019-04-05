@@ -62,7 +62,7 @@ The overview will be continuously updated during the course.
 |   10 | 5/3  | MAX SAT: Randomized algorithms and derandomization                                                                         | 5.1-5.3 [WS]; [Lecture notes][9]                                                                      |
 |      | 7/3  | Exercises <br> MAX SAT: randomized LP rounding and Best of Two                                                             | [Exercise sheet 5]({% post_url 2019-01-23-exercises %}#sheet5) <br> 5.4-5.5 [WS]; [Lecture notes][10] |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
-|   11 | 12/3 | Q&A on the project assignment and Sheet 4 <br> MAT SAT: Best of Two and nonlinear randomized LP rounding                   | [Project part 1][11]; [slides][13] <br> 5.5-5.6 [WS]; [Lecture notes][12]                             |
+|   11 | 12/3 | Q&A on the project assignment and Sheet 4 <br> MAT SAT: Best of Two and nonlinear randomized LP rounding                   | [Project part 1][11]; [Slides][13] <br> 5.5-5.6 [WS]; [Lecture notes][12]                             |
 |      | 14/3 | Set Cover: deterministic LP-rounding <br> Set Cover: LP duality                                                            | 1.2-1.3 [WS] <br> 1.4 [WS]; [Lecture notes][14]                                                       |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |   12 | 19/3 | Exercises <br> Set Cover: Primal-Dual algorithm                                                                            | [Exercise sheet 6]({% post_url 2019-01-23-exercises %}#sheet6) <br> 1.4-1.5 [WS]; [Lecture notes][15] |
@@ -71,8 +71,8 @@ The overview will be continuously updated during the course.
 |   13 | 26/3 | Exercises <br> Set Cover: Greedy analyzed by Dual Fitting                                                                  |[Exercise sheet 7]({% post_url 2019-01-23-exercises %}#sheet7) <br> 1.6 [WS]; [Lecture notes][17]      |
 |      | 28/3 | Lecture cancelled                                                                                                          |                                                                                                       |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
-|   14 |  2/4 | Experimental Analysis of Heuristics for Optimization                                                                       |     [Slides][18]                                                                                                   |
-|      |  4/4 | Experimental Analysis of Heuristics for Optimization: Visualization                                                        |                                                                                                       |
+|   14 |  2/4 | Experimental Analysis of Heuristics for Optimization                                                                       |  [Slides][18]                                                                                                      |
+|      |  4/4 | Experimental Analysis of Heuristics for Optimization: Visualization                                                        |  [Slides][19]                                                                                                      |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |   15 |  9/4 | Experimental Analysis of Heuristics for Optimization: Testing <br> Midway course evaluation                                |                                                                                                       |
 |      | 11/4  | Stochastic Local Search & Metaheuristics (local search based)                                                              | ch 7 [MAK]                                                                                            |
@@ -150,3 +150,4 @@ The overview will be continuously updated during the course.
 [16]: {{ "/assets/dm865-lec190321.pdf" | absolute_url }}
 [17]: {{ "/assets/dm865-lec190326.pdf" | absolute_url }}
 [18]: {{ "/assets/dm865-experimental-1-handout.pdf" | absolute_url }}
+[19]: {{ "/assets/dm865-experimental-2-handout.pdf" | absolute_url }}
