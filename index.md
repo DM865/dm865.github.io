@@ -80,8 +80,8 @@ The overview will be continuously updated during the course.
 |   16 |      | Easter                                                                                                                     |                                                                                                       |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |   17 | 23/4 | Metaheuristics (construction heuristic based)                                                                              | [Slides][21]; [Project part 2][22]                                                                    |
-|      | 24/4 | Ant Colony Optimization                                                                                                    |                                                                                                       |
-|      | 25/4 | Evolutionary Algorithms                                                                                                    |                                                                                                       |
+|      | 24/4 | Ant Colony Optimization                                                                                                    | [Slides][23]                                                                                                       |
+|      | 25/4 | Evolutionary Algorithms                                                                                                    | [Slides][24]                                                                                                       |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |   18 | 30/4 | Knapsack: Approximation algorithms <br> Introduction to Bin Packing                                                        | 3.1 [WS] <br> 3.3 [WS]                                                                                |
 |      | 2/5  | Bin Packing: Approximation algorithms                                                                                      | 3.3 [WS]                                                                                              |
@@ -155,3 +155,5 @@ The overview will be continuously updated during the course.
 [20]: {{ "/assets/dm865-metaheuristics-handout.pdf" | absolute_url }}
 [21]: {{ "/assets/dm865-constr-meta-handout.pdf" | absolute_url }}
 [22]: {{ "/assets/dm865-assignment-meta.pdf" | absolute_url }}
+[23]: {{ "/assets/dm865-aco-handout.pdf" | absolute_url }}
+[24]: {{ "/assets/dm865-evolutionary-handout.pdf" | absolute_url }}
