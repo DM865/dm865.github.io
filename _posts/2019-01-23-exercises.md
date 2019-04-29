@@ -218,3 +218,14 @@ derandomized to obtain a deterministic $p$-approximation algorithm.
 2. Do Exercise 5.7.
    Hint: Using $\lambda = n \cdot \ln n \cdot Z_{\text{LP}}^*$, it is
    possible to obtain a $(3 \ln n)$-approximation algorithm.
+
+
+#### Sheet 8: <a name="sheet8"></a> Exercise for Thursday, May 2.
+
+1. Solve Exercise 3.1.
+Hint: For proving the appoximation ratio it may be helpful to first consider the algorithm that chooses between the sets {1,2,…,k1,2,…,k} and {k+1k+1}.
+
+
+#### Sheet 9: <a name="sheet9"></a> Exercise for Tuesday, May 7.
+
+1. Solve Exercise 3.6.
