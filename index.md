@@ -83,7 +83,7 @@ The overview will be continuously updated during the course.
 |      | 24/4 | Ant Colony Optimization                                                                                                    | [Slides][23]                                                                                          |
 |      | 25/4 | Evolutionary Algorithms                                                                                                    | [Slides][24]                                                                                          |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
-|   18 | 30/4 | Evolutionary Algorithms <br> Knapsack: Approximation algorithms                                                            | <br> 3.1 [WS]                                                                                         |
+|   18 | 30/4 | Evolutionary Algorithms <br> Knapsack: Approximation algorithms                                                            | <br> 3.1 [WS]; [Lecture notes][25]                                                                    |
 |      | 2/5  | Bin Packing: Approximation algorithms                                                                                      | 3.3 [WS]                                                                                              |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |   19 | 7/5  | Bin Packing: Approximation algorithms                                                                                      | 3.3 [WS]                                                                                              |
@@ -157,3 +157,4 @@ The overview will be continuously updated during the course.
 [22]: {{ "/assets/dm865-assignment-meta.pdf" | absolute_url }}
 [23]: {{ "/assets/dm865-aco-handout.pdf" | absolute_url }}
 [24]: {{ "/assets/dm865-evolutionary-handout.pdf" | absolute_url }}
+[25]: {{ "/assets/dm865-lec190430.pdf" | absolute_url }}
