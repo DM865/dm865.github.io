@@ -86,7 +86,7 @@ The overview will be continuously updated during the course.
 |   18 | 30/4 | Evolutionary Algorithms <br> Knapsack: Approximation algorithms                                                            | <br> 3.1 [WS]; [Lecture notes][25]                                                                    |
 |      | 2/5  | Knapsack: FPTAS <br> Exercise <br> Bin Packing: Approximation algorithms                                                   | 3.1 [WS] <br> [Exercise sheet 8]({% post_url 2019-01-23-exercises %}#sheet8) <br> 3.3 [WS]            |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
-|   19 | 7/5  | Exercise <br> Bin Packing: Approximation algorithms                                                                        | [Exercise sheet 9]({% post_url 2019-01-23-exercises %}#sheet9) <br> 3.3 [WS]                          |
+|   19 | 7/5  | Exercise <br> Bin Packing: Approximation algorithms                                                                        | [Exercise sheet 9]({% post_url 2019-01-23-exercises %}#sheet9) <br> 3.3 [WS]; [Lecture notes][26]     |
 |      | 9/5  | Scheduling: Classification                                                                                                 | ch 1 [BK]                                                                                             |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |   20 | 13/5 | Scheduling: Complexity                                                                                                     | [BK ch 1] [P chp 2,3]                                                                                 |
@@ -158,3 +158,4 @@ The overview will be continuously updated during the course.
 [23]: {{ "/assets/dm865-aco-handout.pdf" | absolute_url }}
 [24]: {{ "/assets/dm865-evolutionary-handout.pdf" | absolute_url }}
 [25]: {{ "/assets/dm865-lec190430.pdf" | absolute_url }}
+[26]: {{ "/assets/dm865-lec190502.pdf" | absolute_url }}
