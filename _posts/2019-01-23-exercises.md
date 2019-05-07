@@ -230,3 +230,14 @@ derandomized to obtain a deterministic $p$-approximation algorithm.
 #### Sheet 9: <a name="sheet9"></a> Exercise for Tuesday, May 7.
 
 1. Solve Exercise 3.6.
+
+
+#### Sheet 10: <a name="sheet10"></a> Exercise for Thursday, May 23.
+
+1. Solve Exercise 2.2
+
+2. In the lecture on Tuesday, May 21, we proved that the approximation
+ratio of the local search algorithm and the List Scheduling algorithm
+is at most $2−\frac{1}{m}$. Prove that this bound is tight, i.e., prove that
+the ratio is at least $2−\frac{1}{m}$. 
+
