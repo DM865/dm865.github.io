@@ -237,7 +237,7 @@ derandomized to obtain a deterministic $p$-approximation algorithm.
 1. Solve Exercise 2.2
 
 2. In the lecture on Tuesday, May 21, we proved that the approximation
-   ratio of the List Scheduling algorithm is at most
+   ratio of the List Scheduling algorithm is **at most**
    $2−\frac{1}{m}$. Prove that this bound is tight, i.e., prove that the
-   ratio is at least $2−\frac{1}{m}$.
+   ratio is at **least** $2−\frac{1}{m}$.
 
