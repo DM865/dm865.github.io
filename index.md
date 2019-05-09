@@ -87,7 +87,7 @@ The overview will be continuously updated during the course.
 |      | 2/5  | Knapsack: FPTAS <br> Exercise <br> Bin Packing: Approximation algorithms                                                   | 3.1 [WS] <br> [Exercise sheet 8]({% post_url 2019-01-23-exercises %}#sheet8) <br> 3.3 [WS]; [Lecture notes][26] |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |   19 | 7/5  | Exercise <br> Bin Packing: APTAS                                                                                           | [Exercise sheet 9]({% post_url 2019-01-23-exercises %}#sheet9) <br> 3.3 [WS]; [Lecture notes][27]     |
-|      | 9/5  | Scheduling: Classification                                                                                                 | [slides][28]; [Exercise sheet 11]({% post_url 2019-01-23-exercises %}#sheet11); ch 1 [BK]                                                                           |
+|      | 9/5  | Scheduling: Classification                                                                                                 | [slides][28]; [Slides][29]; [Exercise sheet 11]({% post_url 2019-01-23-exercises %}#sheet11); ch 1 [BK]                                                             |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |   20 | 13/5 | Scheduling: Complexity                                                                                                     | [BK ch 1] [P chp 2,3]                                                                                 |
 |      | 15/5 | Scheduling: Single Machine                                                                                                 |                                                                                                       |
@@ -161,3 +161,4 @@ The overview will be continuously updated during the course.
 [26]: {{ "/assets/dm865-lec190502.pdf" | absolute_url }}
 [27]: {{ "/assets/dm865-lec190507.pdf" | absolute_url }}
 [28]: {{ "/assets/dm865-scheduling-class-handout.pdf" | absolute_url }}
+[29]: {{ "/assets/dm865-scheduling-rcpsp-handout.pdf" | absolute_url }}
