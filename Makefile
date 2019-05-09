@@ -1,4 +1,4 @@
-AY=2017-2018
+AY=2018-2019
 
 timetable:
 	ical2table_w3.py -s N340040101/f19/f19 -o assets/dm865.html -t h1
