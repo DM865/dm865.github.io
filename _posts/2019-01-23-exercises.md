@@ -232,19 +232,7 @@ derandomized to obtain a deterministic $p$-approximation algorithm.
 1. Solve Exercise 3.6.
 
 
-#### Sheet 10: <a name="sheet10"></a> Exercise for Thursday, May 23.
-
-1. Solve Exercise 2.2
-
-2. In the lecture on Tuesday, May 21, we proved that the approximation
-   ratio of the List Scheduling algorithm is **at most**
-   $2−\frac{1}{m}$. Prove that this bound is tight, i.e., prove that the
-   ratio is **at least** $2−\frac{1}{m}$.
-
-
-
-
-#### Sheet 11: <a name="sheet11"></a> Exercises for Monday, May 13.
+#### Sheet 10: <a name="sheet10"></a> Exercises for Monday, May 13.
 
 Classfy the following scheduling applications:
 
@@ -301,3 +289,15 @@ Classfy the following scheduling applications:
 
 	- A late delivery implies a penalty that depends on the importance 
 	  of the order or the client and the tardiness of the delivery.
+
+
+#### Sheet 11: <a name="sheet11"></a> Exercise for Thursday, May 23.
+
+1. Solve Exercise 2.2
+
+2. In the lecture on Tuesday, May 21, we proved that the approximation
+   ratio of the List Scheduling algorithm is **at most**
+   $2−\frac{1}{m}$. Prove that this bound is tight, i.e., prove that the
+   ratio is **at least** $2−\frac{1}{m}$.
+
+
