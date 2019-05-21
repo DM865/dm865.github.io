@@ -92,7 +92,7 @@ The overview will be continuously updated during the course.
 |   20 | 13/5 | Scheduling: Complexity                                                                                                     | [Slides][30]; [BK ch 1] [P chp 2,3]                                                                                |
 |      | 15/5 | Scheduling: Single Machine                                                                                                 | [Slides][31];                                                                                                      |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
-|   21 | 21/5 | Scheduling: Approximation algorithms                                                                                       | 2.3 [WS]                                                                                              |
+|   21 | 21/5 | Scheduling: Approximation algorithms                                                                                       | 2.3 [WS]; [Lecture notes][32]                                                                         |
 |      | 23/5 | Scheduling: PTAS <br> Exercises                                                                                            | 3.2 [WS] <br> [Exercise sheet 11]({% post_url 2019-01-23-exercises %}#sheet11) 			                                                                       |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |   22 | 28/5 | Course evalutation <br> Discussion of the exam <br> Assignment of exam slots                                               |                                                                                                       |
@@ -164,3 +164,4 @@ The overview will be continuously updated during the course.
 [29]: {{ "/assets/dm865-scheduling-rcpsp-handout.pdf" | absolute_url }}
 [30]: {{ "/assets/dm865-scheduling-complex-handout.pdf" | absolute_url }}
 [31]: {{ "/assets/dm865-scheduling-single-handout.pdf" | absolute_url }}
+[32]: {{ "/assets/dm865-lec190521.pdf" | absolute_url }}
