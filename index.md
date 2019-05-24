@@ -95,7 +95,7 @@ The overview will be continuously updated during the course.
 |   21 | 21/5 | Scheduling: Approximation algorithms                                                                                       | 2.3 [WS]; [Lecture notes][32]                                                                         |
 |      | 23/5 | Scheduling: PTAS <br> Exercises                                                                                            | 3.2 [WS]; [Lecture notes][33] <br> [Exercise sheet 11]({% post_url 2019-01-23-exercises %}#sheet11)   |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
-|   22 | 28/5 | Course evalutation <br> Discussion of the exam <br> Assignment of exam slots                                               |                                                                                                       |
+|   22 | 28/5 | Course evalutation <br> Discussion of the exam <br> Assignment of exam slots                                               | All [lecture notes][34] for approximation algorithms as one pdf-file                                  |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 
 
@@ -166,3 +166,4 @@ The overview will be continuously updated during the course.
 [31]: {{ "/assets/dm865-scheduling-single-handout.pdf" | absolute_url }}
 [32]: {{ "/assets/dm865-lec190521.pdf" | absolute_url }}
 [33]: {{ "/assets/dm865-lec190523.pdf" | absolute_url }}
+[34]: {{ "/assets/dm865-lectureNotes19.pdf" | absolute_url }}
