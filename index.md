@@ -95,7 +95,7 @@ The overview will be continuously updated during the course.
 |   21 | 21/5 | Scheduling: Approximation algorithms                                                                                       | 2.3 [WS]; [Lecture notes][32]                                                                         |
 |      | 23/5 | Scheduling: PTAS <br> Exercises                                                                                            | 3.2 [WS]; [Lecture notes][33] <br> [Exercise sheet 11]({% post_url 2019-01-23-exercises %}#sheet11)   |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
-|   22 | 28/5 | Course evalutation <br> Discussion of the exam <br> Assignment of exam slots                                               | All [lecture notes][34] for approximation algorithms as one pdf-file                                  |
+|   22 | 28/5 | Course evalutation <br> Discussion of the exam <br> Assignment of exam slots                                               | All [lecture notes][34] for approximation <br> algorithms as one pdf-file                                  |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 
 
