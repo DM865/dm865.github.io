@@ -1,0 +1,89 @@
+\documentclass[10pt]{beamer}
+
+\setbeamertemplate{navigation symbols}{} %remove navigation bar
+\setbeamertemplate{footline}[frame number] %add page numbers
+
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+
+\setlength{\parskip}{5pt plus 1pt minus 1pt}
+
+\newcommand{\x}{\ensuremath{\times}}
+
+\title{CS Elective Courses}
+\author{Short Descriptions}
+\date{}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frame{\titlepage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frame
+{
+  \frametitle{DM865 Heuristics and Approximation Algorithms}
+
+  \textbf{Teacher:} Marco and Lene
+
+  \textbf{ECTS:} 10
+  
+  \textbf{Teaching:} 16 weeks, two double lectures per week (64 hours
+  in total).
+
+  Heuristics: Slides, programming exercises
+
+  Approximation:
+  Classic advanced algorithmics-style lectures (algorithm
+  descriptions + proofs), blackboard based, a few exercises.
+
+  \textbf{Projects:} 2 medium sized programming projects in
+  Python. approx.\ 2 x 25 hours work expected.
+ 
+  \textbf{Material:}
+  Heuristics: Book and papers (+ slides)
+  
+  Approximation: Book (+ lecture notes)
+
+  \textbf{Exam:} Oral, 24 min without preparation: 3 $\times$ 6 minutes theory and 6 minutes project, 7-grade scale.
+
+
+\textbf{Topics:}\\
+   {\color{gray} Problems: TSP, Max Sat, Set Cover, Knapsack, Bin Packing, Scheduling, Vehicle Routing}\\
+   {\color{gray} Techniques: LP-rounding, Primal-Dual, Greedy, dynamic prg., PTAS, randomized + derandomized, Local Search, Metaheuristics}
+}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+\frame{
+  \frametitle{Topics ctd:}
+
+\begin{tabular}{|c||c|c|c|}
+  \hline
+              & PTAS  & Rand.\ & Derand.\ \\
+ \hline
+ TSP          &       &        &    \\
+ \hline
+ Max Sat      &       & \x     & \x \\
+ \hline
+ Set Cover    &       &        & \x \\  
+ \hline
+ Knapsack     & FPTAS &        &    \\
+ \hline
+ Bin packing  & APTAS &        &    \\
+ \hline
+ Scheduling   & PTAS  &        &    \\
+ \hline
+\end{tabular}
+}

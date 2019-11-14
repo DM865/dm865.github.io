@@ -1,0 +1,254 @@
+\ProvidesPackageRCS $Header: beamerouterthemeOdense.sty,v 0.9 2007/02/05 00:00:00 jrouquie Exp $
+% Copyright 2007 by Jean-Baptiste Rouquier
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+
+\mode<presentation|handout>
+
+\newif\ifbeamer@onlysecheader
+\beamer@onlysecheaderfalse
+
+\newif\ifbeamer@subsecheader
+\beamer@subsecheaderfalse
+
+
+\DeclareOptionBeamer{onlysecheader}{\beamer@onlysecheadertrue}
+\DeclareOptionBeamer{subsecheader}{\beamer@subsecheadertrue}
+\ProcessOptionsBeamer
+
+%\setbeamercolor*{normal text}{fg=black,bg=white!90!black}
+%\setbeamercolor*{example text}{fg=black}
+%\setbeamercolor*{structure}{fg=black}
+
+
+\beamertemplateboldtitlepage
+\beamertemplateboldcenterframetitle
+
+%\beamertemplateplaintoc
+\beamertemplatenumberedsectiontoc
+%\beamertemplatenumberedballsectiontoc
+
+\beamertemplatenavigationsymbolsempty
+\beamertemplatetransparentcovered
+
+%\usecolortheme[RGB={46, 139, 87}]{structure}
+%http://en.wikipedia.org/wiki/Variations_of_green
+\usecolortheme[RGB={79, 121, 66}]{structure}
+\setbeamercovered{invisible}
+%\renewcommand{\alert}{\textbf}
+\setbeamercolor{alerted text}{fg=blue}
+
+%\defbeamertemplate*{background}{Odense theme}{%
+%  \hskip0.64\paperwidth%
+%  \includegraphics[width=\paperwidth,height=0.88\paperheight,keepaspectratio,trim=0 0 0 -10]{Odense_theme/sdu_seal}%
+%}
+%
+\usesectionheadtemplate
+  {\insertsectionhead\hfill}
+  {\color{fg!50!bg}\insertsectionhead\hfill}
+
+
+\newdimen\beamer@headheight
+\beamer@headheight=1.8\baselineskip
+
+%
+\usetitlepagetemplate{
+\vbox{}
+\vfill
+\begin{centering}
+{
+%\normalsize {\bf DM204}, 2010\\
+%SCHEDULING, TIMETABLING AND ROUTING\\
+%DM63\hspace*{0.28em}SEARCH\hspace*{0.28em}METHODS\\
+%\footnotesize APPLICATIONS\hspace*{0.62em}AND\hspace*{0.62em}ENGINEERING\\
+%\sf\large STOCHASTIC\hspace*{0.42em}LOCAL\hspace*{0.42em}SEARCH\\
+%\small FOUNDATIONS\hspace*{0.25em}AND\hspace*{0.25em}APPLICATIONS\\
+%\sc\large Stochastic Local Search\\
+%\small Foundations\hspace*{0.42em}and\hspace*{0.42em}Applications\\
+}
+%
+\vspace*{8mm}
+%
+\large\structure{\bf \inserttitle}
+%
+
+\vspace*{10mm}
+%
+\normalsize\insertauthor\vskip1em\par
+%\small\insertinstitute
+{\scriptsize\insertinstitute\par}\par\vskip1em
+\small\insertdate\par\vskip1.5em
+%%\inserttitlegraphic
+%
+%\vspace*{5mm}
+\end{centering}
+%\vfill
+}
+%
+
+  \defbeamertemplate*{frametitle}{split theme}
+  {%
+    \nointerlineskip%
+    \vskip-\beamer@headheight%
+    \vbox to \beamer@headheight{%
+      \vfil
+      \leftskip=-\beamer@leftmargin%
+      \advance\leftskip by0.3cm%
+      \rightskip=-\beamer@rightmargin%
+      \advance\rightskip by0.3cm plus1fil%
+      {\usebeamercolor[fg]{frametitle}\usebeamerfont{frametitle}{\Large\insertframetitle}\par}%
+      {\usebeamercolor[fg]{framesubtitle}\usebeamerfont{framesubtitle}\insertframesubtitle\par}%
+      \vbox{}%
+      \vskip-1em%
+      \vfil
+    }%
+  }
+
+
+\ifbeamer@compress
+\defbeamertemplate*{headline}{split theme}
+{%
+  \leavevmode%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=12ex]{frametitle}
+      \end{beamercolorbox}%
+}
+\fi
+
+\ifbeamer@subsecheader
+\defbeamertemplate*{headline}{split theme}
+{%
+  \leavevmode%
+  \@tempdimb=2.4375ex%
+  \ifnum\beamer@subsectionmax<\beamer@sectionmax%
+    \multiply\@tempdimb by\beamer@sectionmax%
+  \else%
+    \multiply\@tempdimb by\beamer@subsectionmax%
+  \fi%
+  \ifdim\@tempdimb<4ex%
+  \@tempdimb=6ex
+\fi
+  \ifdim\@tempdimb>0pt%
+    \advance\@tempdimb by 7ex%1.125ex%
+    \begin{beamercolorbox}[wd=0.59\paperwidth,ht=\@tempdimb]{frametitle}
+      \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.20\paperwidth,ht=\@tempdimb,dp=0ex,right]{section in head/foot}%
+      \vbox to\@tempdimb{\vfil\insertsectionnavigation{.20\paperwidth}\vfil}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.20\paperwidth,ht=\@tempdimb,dp=0ex,left]{subsection in head/foot}%
+      \vbox to\@tempdimb{\vfil\insertsubsectionnavigation{.20\paperwidth}\vfil}%
+    \end{beamercolorbox}%
+  \fi%
+}
+\fi
+
+\ifbeamer@onlysecheader
+\defbeamertemplate*{headline}{split theme}
+{%
+  \leavevmode%
+  \@tempdimb=2.4375ex%
+%  \ifnum\beamer@subsectionmax<\beamer@sectionmax%
+    \multiply\@tempdimb by\beamer@sectionmax%
+ % \else%
+ %   \multiply\@tempdimb by\beamer@subsectionmax%
+ % \fi%
+  \ifdim\@tempdimb<4ex%
+  \@tempdimb=6ex
+\fi
+  \ifdim\@tempdimb>0pt%
+    \advance\@tempdimb by 7ex%1.125ex%
+    \begin{beamercolorbox}[wd=0.77\paperwidth,ht=\@tempdimb]{frametitle}
+      \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.22\paperwidth,ht=\@tempdimb,dp=0ex,left]{section in head/foot}%
+      \vbox to\@tempdimb{\vfil\insertsectionnavigation{.20\paperwidth}\vfil}%
+    \end{beamercolorbox}%
+  \fi%
+}
+\fi
+%%
+%%
+%%\defbeamertemplate*{headline}{split theme}{%
+%%  \leavevmode%
+%%  \@tempdimb=2.4375ex%
+%%  \ifnum\beamer@subsectionmax<\beamer@sectionmax%
+%%    \multiply\@tempdimb by\beamer@sectionmax%
+%%  \else%
+%%    \multiply\@tempdimb by\beamer@subsectionmax%
+%%  \fi%
+%%  \ifdim\@tempdimb>0pt%
+%%    \advance\@tempdimb by 1.125ex%
+%%%      \includegraphics[width=0.3\paperwidth]{Odense_theme/sdu_logo}%
+%%      \vbox to\@tempdimb{\vfil\insertsectionnavigation{.7\paperwidth}\vfil}%
+%%  \fi%
+%%}
+
+
+\defbeamertemplate*{footline}{split theme}
+{
+  \leavevmode%
+  \hbox{%
+%\hspace*{3ex}\usebeamercolor[fg]{author in head/foot}\usebeamerfont{author in head/foot}%
+%\insertshortauthor~~.::.~~\insertshorttitle
+}
+  \hfill
+  \hbox{%
+%\inserttitle
+%\insertauthor
+%  \usebeamerfont{title in head/foot}\insertshorttitle\hspace*{2ex}%
+%\usebeamercolor[fg]{author in head/foot}%
+%\insertshortauthor~~.::.~~\insertshorttitle%
+\insertframenumber{} %
+%/ \inserttotalframenumber
+\hspace*{3ex}
+}%
+ \vskip2pt%
+}
+%%
+%%\defbeamertemplate*{frametitle}{Odense theme}[1][left]
+%%{
+%%  \ifbeamercolorempty[bg]{frametitle}{}{\nointerlineskip}%
+%%  \@tempdima=\textwidth%
+%%  \advance\@tempdima by\beamer@leftmargin%
+%%  \advance\@tempdima by\beamer@rightmargin%
+%%  \begin{beamercolorbox}[sep=0.3cm,#1,wd=\the\@tempdima]{frametitle}
+%%    \usebeamerfont{frametitle}%
+%%    \vbox{}\vskip-1ex%
+%%    \if@tempswa\else\csname beamer@fte#1\endcsname\fi%
+%%    \hfill\insertframetitle\hfill\par%
+%%    {%
+%%      \ifx\insertframesubtitle\@empty%
+%%      \else%
+%%      {\usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\hfill\insertframesubtitle\hfill\par}%
+%%      \fi
+%%    }%
+%%    \vskip-1ex%
+%%    \if@tempswa\else\vskip-.3cm\fi% set inside beamercolorbox... evil here...
+%%  \end{beamercolorbox}%
+%%}
+%%
+ 
+
+
+%
+%\AtBeginSection[]
+%{
+%  \frame<1| article:0>{
+%    %\frametitle{\vskip2.5ex\vskip4pt Outline}
+%    \frametitle{Outline}
+%    \tableofcontents[currentsubsection,subsubsectionstyle=hide]
+%  }
+%}
+%
+%
+%\AtBeginSubsection[]
+%{
+%  \frame<1| article:0>{
+%    %\frametitle{\vskip2.5ex\vskip4pt Outline}
+%    \frametitle{Outline}
+%    \tableofcontents[currentsubsection,subsubsectionstyle=hide]%subsectionstyle=hide]
+%  }
+%}
+%%
+
+
+\mode
+<all>

@@ -1,0 +1,211 @@
+
+\newcommand{\Rnote}[1]{\footnotesize #1}
+
+
+\newcommand{\mycite}[1]{{\small\color{white!40!black} [#1]}}
+\newcommand{\mycitep}[1]{{\small\color{white!30!black} \citep{#1}}}
+\newcommand{\mycitepa}[1]{{\small\color{white!30!black} \citep*{#1}}}
+\newcommand{\myciteps}[1]{{\scriptsize\color{white!30!black} \citep{#1}}}
+
+\newcommand{\alertb}[1]{{\color{green!60!black} #1}}
+\newcommand{\alerta}[1]{{\color{red} #1}}
+
+
+\newcommand{\sched}[3]{$#1\:|\:#2\:|\:#3$}
+\newcommand{\real}[0]{\ensuremath{\mathbb{R}}}
+\newcommand{\complex}[0]{$\mathbb{C}$}
+\newcommand{\natur}[0]{\ensurermath{\mathbb{N}}}
+\newcommand{\integer}[0]{\ensuremath{\mathbb{Z}}}
+\newcommand{\binary}[0]{\ensuremath{\mathbb{B}}}
+%\newcommand{\p}[0]{{\em P}}
+%\newcommand{\pr}[0]{{\em P$_{\mathbb{R}}$}}
+%\newcommand{\np}[0]{{\em NP}}
+%\newcommand{\npr}[0]{{\em NP$_{\mathbb{R}}$}}
+%\newcommand{\npo}[0]{{\em NPO}}
+%\newcommand{\npor}[0]{{\em NPO$_{\mathbb{R}}$}}
+%\newcommand{\npormax}[0]{{\em NPO$_{\mathbb{R},max}$}}
+%\newcommand{\npormin}[0]{{\em NPO$_{\mathbb{R},min}$}}
+%\newcommand{\apx}[0]{{\em APX}}
+%\newcommand{\maxnpr}[0]{{\em MAX-NP$_{\mathbb{R}}$}}
+%\newcommand{\maxsigmanulr}[0]{{\em MAX-$\Sigma_{0,\mathbb{R}}$}}
+%\newcommand{\maxsigmaetr}[0]{{\em MAX-$\Sigma_{1,\mathbb{R}}$}}
+%\newcommand{\maxpietr}[0]{{\em MAX-$\Pi_{1,\mathbb{R}}$}}
+%\newcommand{\maxpitor}[0]{{\em MAX-$\Pi_{2,\mathbb{R}}$}}
+%\newcommand{\minnpr}[0]{{\em MIN-NP$_{\mathbb{R}}$}}
+%\newcommand{\minsigmanulr}[0]{{\em MIN-$\Sigma_{0,\mathbb{R}}$}}
+%\newcommand{\minpietr}[0]{{\em MIN-$\Pi_{1,\mathbb{R}}$}}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{definition}{Definition}
+\newtheorem{notation}{Notation}
+\newtheorem{summary}{Summary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+%\newtheorem{lemma}{Lemma}
+%\newtheorem{example}{Example}
+%\newtheorem{corollary}{Corollary}
+\newtheorem{property}{Property}
+\newtheorem{conjecture}{Conjecture}
+
+
+\renewcommand{\vec}[1]{\ensuremath {\mathbf #1}}
+\newcommand{\row}[1]{\ensuremath \overrightarrow{\mathbf #1}}
+
+%\newcommand{\pder}[2][]{\frac{\partial#1}{\partial#2}}
+\def\p{\ensuremath{\vec \theta}}
+\def\x{\ensuremath{\vec x}}
+\def\y{\ensuremath{\vec y}}
+\def\z{\ensuremath{\vec z}}
+\def\bx{\ensuremath{\vec \phi(\vec x)}}
+\def\N{\ensuremath{\mathcal{N}}}
+\def\R{\ensuremath{\mathcal{R}}}
+\def\C{\ensuremath{\mathbf{\Sigma}}}
+
+%\def\p{P}
+\def\pr{P_{\mathbb{R}}}
+\def\np{NP}
+\def\npr{NP_{\mathbb{R}}}
+\def\vp{VP}
+\def\vnp{VNP}
+\def\npo{NPO}
+\def\npor{NPO_{\mathbb{R}}}
+\def\npormax{NPO_{\mathbb{R}, max}}
+\def\npormin{NPO_{\mathbb{R}, min}}
+\def\apx{APX}
+\def\ptas{PTAS}
+\def\fptas{FPTAS}
+\def\apxr{APX_{\mathbb{R}}}
+\def\apxrmax{APX_{\mathbb{R}, max}}
+\def\apxrmin{APX_{\mathbb{R}, min}}
+\def\ptasr{PTAS_{\mathbb{R}}}
+\def\ptasrmax{PTAS_{\mathbb{R}, max}}
+\def\ptasrmin{PTAS_{\mathbb{R}, min}}
+\def\fptasr{FPTAS_{\mathbb{R}}}
+\def\fptasrmax{FPTAS_{\mathbb{R}, max}}
+\def\fptasrmin{FPTAS_{\mathbb{R}, min}}
+%\def\imply{\ding{232}~}
+\def\imply{\ensuremath{\Longrightarrow}}
+
+\DeclareMathOperator{\median}{median}
+\DeclareMathOperator{\argmax}{argmax}
+\DeclareMathOperator{\argmin}{argmin}
+\DeclareMathOperator{\st}{s.t.}
+
+
+\newcommand{\Ins}{\pi}
+
+
+\newcommand{\ie}{{\it{}i.e.\/}}
+\newcommand{\eg}{{\it{}e.g.\/}}
+\newcommand{\vs}{{\color{white!40!black} \emph{vs}~}}
+
+
+\newdimen\mycm
+%\mycm=0.2cm
+\newdimen\radius
+%\input{commands}
+
+
+
+
+\newcommand{\tc}[2]{\textcolor{#1}{#2}}
+\newcommand{\ct}[1]{\textcolor{grey}{#1}}
+
+
+\newcommand{\func}[1]{\ensuremath{\mathtt{#1}}}
+
+
+\newcounter{enum}
+\renewenvironment{enumerate}{%
+\begin{list}{\color{blue}\small\arabic{enum}.}
+{\usecounter{enum}}}
+{\end{list}}
+
+
+\newcounter{enuma}
+\newenvironment{enumeratea}{%
+\begin{list}{\color{gray}\small\alph{enuma})}
+{\usecounter{enuma}}}
+{\end{list}}
+
+
+%\renewenvironment{description}{%
+%\begin{list}{\color{blue}}
+%{}}
+%{\end{list}}
+
+
+\renewcommand{\Re}{\ensuremath{\mathbb{R}}}
+\newcommand{\Bin}{\ensuremath{\mathbb{B}}}
+\newcommand{\Int}{\ensuremath{\mathbb{Z}}}
+\newcommand{\Na}{\ensuremath{\mathbb{N}}}
+
+\newcommand{\inner}[2]{\ensuremath{\left\langle\bf{#1},\bf{#2}\right\rangle}}
+\newcommand{\mes}[1]{\ensuremath{\left\|\bf{#1}\right\|}}
+\newcommand{\rank}{\ensuremath{\operatorname{rank}}}
+%\newcommand{\det}{\ensuremath{\operatorname{det}(#1)}}
+\newcommand{\Lin}{\ensuremath{\operatorname{Lin}}}
+
+
+
+
+\newcommand{\vbar}{$\,\;|$\hspace*{-1em}\raisebox{-0.3mm}{$\,\;\;|$}}
+\newcommand{\vendbar}{\raisebox{+0.4mm}{$\,\;|$}}
+\newcommand{\vend}{$\,\:\lfloor$}
+\newcommand{\param}[1]{\ensuremath{\mathtt{#1}}}
+\newcommand{\var}[1]{\ensuremath{\mathtt{#1}}}
+
+\newcommand{\pscProc}{{\bf procedure}}
+\newcommand{\pscBegin}{{\bf begin}}
+\newcommand{\pscEnd}{{\bf end}}
+\newcommand{\pscEndIf}{{\bf endif}}
+\newcommand{\pscFor}{{\bf for}}
+\newcommand{\pscEach}{{\bf each}}
+\newcommand{\pscThen}{{\bf then}}
+\newcommand{\pscElse}{{\bf else}}
+\newcommand{\pscWhile}{{\bf while}}
+\newcommand{\pscIf}{{\bf if}}
+\newcommand{\pscRepeat}{{\bf repeat}}
+\newcommand{\pscUntil}{{\bf until}}
+\newcommand{\pscWithProb}{{\bf with probability}}
+\newcommand{\pscOtherwise}{{\bf otherwise}}
+\newcommand{\pscDo}{{\bf do}}
+\newcommand{\pscTo}{{\bf to}}
+\newcommand{\pscOr}{{\bf or}}
+\newcommand{\pscAnd}{{\bf and}}
+\newcommand{\pscNot}{{\bf not}}
+\newcommand{\pscFalse}{{\bf false}}
+\newcommand{\pscEachElOf}{{\bf each element of}}
+\newcommand{\pscReturn}{{\bf return}}
+
+
+
+\definecolor{mymagenta}{cmyk}{0,0.8,0,0.4}
+\setbeamercolor{math text}{fg=mymagenta}
+
+
+
+\newcommand{\done}{\ding{52}}
+\newcommand{\crossa}{\ding{54}}
+\newcommand{\crossb}{\ding{56}}
+\mode<presentation|handout>{\def\remark{\ensuremath{\rightsquigarrow}}}
+\mode<article>{\def\remark{{\bf Remark:}}}
+
+
+
+
+\pgfplotsset{
+    standard/.style={
+        axis x line=middle,
+        axis y line=middle,
+       axis z line=middle,
+        enlarge x limits=0.15,
+        enlarge y limits=0.15,
+        enlarge z limits=0.15,
+        every axis x label/.style={at={(ticklabel* cs:1)}, anchor=west},
+        every axis y label/.style={at={(ticklabel* cs:1)},anchor=east},
+        every axis z label/.style={at={(ticklabel* cs:1)},anchor=east},
+          xlabel=$x$,
+          ylabel=$y$,
+          zlabel=$z$
+    }
+}

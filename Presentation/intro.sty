@@ -1,0 +1,267 @@
+% \usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+
+
+\usepackage{tabularx}
+%\usepackage{euler}
+
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{amscd}
+%\usepackage{color}
+\usepackage{pdfpages}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hypersetup{pdftitle={}} % sets the title of the pdf document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{etex}
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{pgffor}
+\usepackage{pgfplots}
+%\usepackage{pgfmath}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,positioning,fit,matrix,graphs,shapes.geometric,calc}
+\tikzstyle{vertex}=[circle,draw=black!80,fill=black!25,minimum size=15pt,inner sep=0pt]
+\tikzstyle{selected vertex} = [vertex, fill=red!24]
+\tikzstyle{edge} = [draw,thick,-]
+\tikzstyle{arc} = [draw,thick,->,shorten >=1pt,>=stealth']
+\tikzstyle{arcl} = [draw,thick,->,shorten >=1pt,>=stealth',bend left=25]
+\tikzstyle{arcr} = [draw,thick,->,shorten >=1pt,>=stealth']
+\tikzstyle{weight} = [font=\small]
+\tikzstyle{selected edge} = [draw,line width=5pt,-,red!50]
+\tikzstyle{ignored edge} = [draw,line width=5pt,-,black!20]
+
+
+\newcommand{\tikzmark}[1]{\tikz[overlay,remember picture] \node (#1) {};}
+\newcommand{\DrawLine}[3][]{%
+    \begin{tikzpicture}[overlay,remember picture]
+        \draw [#1] ($(#2)+(0,0.6ex)$) -- ($(#3)+(0,0.6ex)$);
+    \end{tikzpicture}%
+}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{etoolbox}
+\let\bbordermatrix\bordermatrix
+\patchcmd{\bbordermatrix}{8.75}{4.75}{}{}
+\patchcmd{\bbordermatrix}{\left(}{\left[}{}{}
+\patchcmd{\bbordermatrix}{\right)}{\right]}{}{}
+\usepackage{blkarray}
+
+\usepackage{pifont}
+
+%http://www.nabble.com/conflict-with-dingbat-checkmark-and-pgf-td24602151.html
+%\show\checkmark                % to have a look at the original definition
+\newcommand{\beamercheckmark}{} % make sure it does not yet exist
+\let\beamercheckmark\checkmark  % save its contents in this command
+\let\checkmark\relax            % make \checkmark look undefined
+\usepackage{dingbat}
+
+\usepackage{pdfsync}
+
+\usepackage[square]{natbib}
+\renewcommand{\bibsection}{}
+\renewcommand\bibname{}
+%\renewcommand{\bibsection}{\section{\refname}}
+%\newcommand{\newblock}{}
+\mode<presentation|handout>{\ifundef{\newblock}{\newcommand{\newblock}{}}}
+
+\usepackage{pgf}
+
+\usepackage{multimedia}
+%\usepackage{enumerate}
+\usepackage{booktabs}
+
+\usepackage{colortbl}
+
+
+
+\definecolor{GecodeOrange}{RGB}{251,231,209}
+\definecolor{GecodeContour}{RGB}{235,137,27}
+\mode<presentation|handout>{
+  \usepackage{listings}
+  \lstset{
+    language=[GNU]C++,
+    basicstyle=\ttfamily\footnotesize,
+    %basicstyle=\color{white!20!black}\scriptsize\sffamily,
+    stringstyle=\color{red}\ttfamily,
+    commentstyle=\color{gray}\ttfamily,
+    morecomment=[l][\color{magenta}]{\#},
+    showstringspaces=false, % no special string spaces
+%    % numberblanklines=false,
+%    showspaces=false,
+%    showtabs=false,
+%    %emph={var, int, range, UniformDistribution, Solver, ConstraintSystem},
+%    emphstyle=\color{blue}\bfseries,
+%    %stringstyle=\ttfamily,
+%    %  commentstyle=\color{red}\sffamily\emph,
+%    %   keywordstyle=\color{white!20!black}\bfseries,
+%    inputencoding=utf8,
+%    tabsize=2,
+%    extendedchars=true,
+%    %  frame=tb,%shadowbox,
+%    breaklines=true,
+%    xleftmargin=1pt,
+%    xrightmargin=1pt,
+%    % resetmargins=true,
+%    % captionpos=t,
+%    frame=single,
+%    %framexleftmargin=5pt,
+%    %framexbottommargin=5pt,
+%    %framextopmargin=5pt,
+%    %framexrightmargin=5pt,
+%    framerule=0pt,
+%    frameround=tttt,
+%    rulecolor=\color{GecodeContour},
+%    % framerulecolor=\color{GecodeContour}, %\color[RGB]{250, 200, 150} % red!80!white},
+%    columns=fullflexible,
+%    escapeinside={(*}{*)},
+%    % procnamekeys={procedure},
+    backgroundcolor=\color{white!90!black},
+    %backgroundcolor=\color[RGB]{204, 255, 153},
+%    backgroundcolor=\color[RGB]{255, 255, 153},
+%    backgroundcolor=\color{GecodeOrange},
+    %    morekeywords={}
+    prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+%    numbers=left
+  }
+}
+
+
+\usepackage{arydshln,leftidx,mathtools}% http://ctan.org/pkg/{arydshln,leftidx,mathtools}
+\setlength{\dashlinegap}{2pt}
+%\usepackage{etoolbox}
+%\AtBeginEnvironment{array}{\setlength{\arraycolsep}{0ex}}
+\setlength{\arraycolsep}{0.5mm}
+
+\usepackage[normalem]{ulem}
+\usepackage{colortbl}
+
+\usepackage[vlined]{algorithm2e}
+%\setalcapskip{1ex} %define distance caption-box in the style algorithm2e
+\SetAlCapFnt{\small}
+\SetAlCapFnt{\small}
+\SetAlTitleFnt{textsl}
+\SetArgSty{}
+\SetKw{Procedure}{Procedure}
+\SetKw{Return}{\textbf{return}}
+\SetKwInOut{Input}{input}
+\SetKwInOut{Output}{output}
+\SetKwComment{Comment}{$\%$~}{}
+\SetFillComment
+\SetSideCommentRight
+\SetCommentSty{textrm}
+\setlength{\algomargin}{2em}
+\SetKwFor{SelectMin}{selectMin}{do}{endfor}
+\SetKwFor{SelectMax}{selectMax}{do}{endfor}
+
+
+
+
+%\setbeamertemplate{items}[triangle]
+%\setbeamertemplate{itemize items}[default]
+%\setbeamertemplate{enumerate items}[default]
+\setbeamertemplate{itemize item}{\scriptsize\raise1.25pt\hbox{\donotcoloroutermaths$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{\tiny\raise1.5pt\hbox{\donotcoloroutermaths$\blacktriangleright$}}
+\setbeamertemplate{itemize subsubitem}{\tiny\raise1.5pt\hbox{\donotcoloroutermaths$\blacktriangleright$}}
+\setbeamertemplate{enumerate item}{\insertenumlabel.}
+\setbeamertemplate{enumerate subitem}{\insertenumlabel.\insertsubenumlabel}
+\setbeamertemplate{enumerate subsubitem}{\insertenumlabel.\insertsubenumlabel.\insertsubsubenumlabel}
+\setbeamertemplate{enumerate mini template}{\insertenumlabel}
+
+\setbeamercolor{itemize item}{fg=black,bg=black}
+\setbeamercolor{itemize subitem}{fg=black,bg=black}
+\setbeamercolor{itemize subsubitem}{fg=black,bg=black}
+\setbeamertemplate{items}[circle]
+
+
+
+
+\setbeamercovered{invisible}
+% \renewcommand{\alert}{\textbf}
+\setbeamercolor{alerted text}{fg=blue}
+% \usecolortheme[named=black]{structure}
+\definecolor{mymagenta}{cmyk}{0,0.7,0,0.6}
+\setbeamercolor{math text}{fg=mymagenta}
+\setbeamersize{text margin left=0.7cm,text margin right=0.7cm}
+% 
+% \newcommand{\func}[1]{{\sl{}#1}}
+% \newcommand{\ie}{{\it{}i.e.\/}}
+% \newcommand{\eg}{{\it{}e.g.\/}}
+% \newcommand{\vs}{{\it{}vs\/}}
+% \newcommand{\vbar}{$\,\;|$\hspace*{-1em}\raisebox{-0.3mm}{$\,\;\;|$}}
+% \newcommand{\vend}{$\,\:\lfloor$}
+% 
+\newdimen\mycm
+% \mycm=0.2cm
+\newdimen\radius
+
+\newcommand{\usecol}{block body example}
+% \newcommand{\coldef}{block body example.bg}
+\newcommand{\coldef}{white}
+% \newcommand{\colemph}{block title.bg}
+\newcommand{\colemph}{white}
+\newcommand{\usecolemph}{block title}
+\setbeamercolor{meta}{use=\usecol,fg=black,bg=\coldef}
+\newcommand{\onehalf}{0.35\paperheight}
+\setlength{\itemsep}{3ex}
+
+
+
+% \setbeamercolor{block body}{use=grey,fg=black,bg=grey!30}
+\setbeamercolor{block title}{fg=blue}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\author[]{Marco Chiarandini}
+\institute{Department of Mathematics \& Computer Science\\
+  University of Southern Denmark}
+% \date{\today}
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\AtBeginPart{\frame{\partpage}
+ \begin{frame}
+    \frametitle{Outline}
+    \tableofcontents[part=\insertpartnumber]
+  \end{frame}
+}
+
+\AtBeginSection[]
+{
+  \begin{frame}<1| handout:1>
+    \frametitle{Outline}
+    \tableofcontents[currentsection,
+%    hideothersubsections, 
+%    hideothersections, 
+    sectionstyle=show/shaded, 
+    subsectionstyle=show/shaded] 
+  \end{frame}
+}
+%
+\AtBeginSubsection[]
+{
+  \frame<1| handout:1>{%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \frametitle{Outline}
+    \tableofcontents[currentsubsection, 
+ %   hideothersubsections, 
+ %   hideothersections, 
+    sectionstyle=show/shaded, 
+    subsectionstyle=show/shaded]
+  }
+}
+%
+% \AtBeginSubsubsection[]
+% {  \begin{frame}
+%     \frametitle{Outline}
+%     \tableofcontents[currentsection,currentsubsection,currentsubsubsection]
+%   \end{frame}
+% }
+% 
+
