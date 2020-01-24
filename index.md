@@ -10,7 +10,7 @@ layout: default
 
 - [Official course description](https://odinlister.sdu.dk/fagbesk/internkode/DM865/en)
 
-- [BlackBoard](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_401855_1)
+- [BlackBoard](https://e-learn.sdu.dk/webapps/blackboard/execute/courseMain?course_id=_414563_1)
 
 - Teachers: [Lene Monrad Favrholdt](http://www.imada.sdu.dk/~lenem/) and [Marco Chiarandini](http://www.imada.sdu.dk/~marco)
 
@@ -19,7 +19,7 @@ layout: default
 
 
 
-<a href="https://mitsdu.sdu.dk/skema/activity/N340040101/f19">MitSDU</a>
+<a href="https://mitsdu.sdu.dk/skema/activity/N340040101/f20">MitSDU</a>
 
 
 <button onclick="myFunction('h1')" class="w3-btn w3-cell
