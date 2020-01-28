@@ -6,7 +6,7 @@ date:   2019-01-10 09:33:19 +0100
 categories: exercises sheet1
 ---
 
-#### Sheet 1: Exercises for Thursday, February 7
+#### Sheet 1: <!-- Exercises for Thursday, February 7 -->
 
 1.  Let $G$ be a complete undirected graph with non-negative edge
     weights.
@@ -43,7 +43,7 @@ categories: exercises sheet1
 	  
 	  
 
-#### Sheet 2: <a name="sheet2"></a> Exercises for Friday, February 16
+#### Sheet 2: <a name="sheet2"></a> <!-- Exercises for Friday, February 16 -->
    
    
 1. Read the Python tutorial [No]. You find some starting code from that
@@ -78,7 +78,7 @@ categories: exercises sheet1
 
 
 
-#### Sheet 3: <a name="sheet3"></a> Exercises for Thursday, February 21.
+#### Sheet 3: <a name="sheet3"></a> <!-- Exercises for Thursday, February 21. -->
 
 <!--
 1. In a 3-opt local search algorithm for the TSP how many possible ways
@@ -120,7 +120,7 @@ categories: exercises sheet1
 
 
 
-#### Sheet 4: <a name="sheet4"></a> Exercises for Thursday, February 28.
+#### Sheet 4: <a name="sheet4"></a> <!-- Exercises for Thursday, February 28. -->
 
 Design a 3 exchange iterative improvement procedure for the TSP.  The
 procedure must return a local optimum in the 3 exchange neighborhood.
@@ -171,14 +171,14 @@ Include a Makefile in the src directory. It can be empty.
 
 
 
-#### Sheet 5: <a name="sheet5"></a> Exercises for Thursday, March 7.
+#### Sheet 5: <a name="sheet5"></a> <!-- Exercises for Thursday, March 7. -->
 
 Argue that $\text{Rand}_p$ with $p=\frac{1}{2}(\sqrt{5}-1)$ (the
 algorithm from Section 5.3) can be 
 derandomized to obtain a deterministic $p$-approximation algorithm.
 
 
-#### Sheet 6: <a name="sheet6"></a> Exercises for Tuesday, March 19.
+#### Sheet 6: <a name="sheet6"></a> <!-- Exercises for Tuesday, March 19. -->
 
 1. a) Write down an LP-formulation of the unweighted Vertex Cover problem.
 
@@ -202,7 +202,7 @@ derandomized to obtain a deterministic $p$-approximation algorithm.
       (Hint: What approximation factor could you obtain?)
       
 
-#### Sheet 7: <a name="sheet7"></a> Exercises for Tuesday, March 26.
+#### Sheet 7: <a name="sheet7"></a> <!-- Exercises for Tuesday, March 26. -->
 
 1. Consider the primal-dual algorithm for the unweighted Vertex Cover problem.
 
@@ -220,19 +220,19 @@ derandomized to obtain a deterministic $p$-approximation algorithm.
    possible to obtain a $(3 \ln n)$-approximation algorithm.
 
 
-#### Sheet 8: <a name="sheet8"></a> Exercise for Thursday, May 2.
+#### Sheet 8: <a name="sheet8"></a> <!-- Exercise for Thursday, May 2. -->
 
 1. Solve Exercise 3.1.
 
    Hint: For proving the appoximation ratio it may be helpful to first consider the algorithm that chooses between the sets {1,2,…,k} and {k+1}.
 
 
-#### Sheet 9: <a name="sheet9"></a> Exercise for Tuesday, May 7.
+#### Sheet 9: <a name="sheet9"></a> <!-- Exercise for Tuesday, May 7. -->
 
 1. Solve Exercise 3.6.
 
 
-#### Sheet 10: <a name="sheet10"></a> Exercises for Monday, May 13.
+#### Sheet 10: <a name="sheet10"></a> <!-- Exercises for Monday, May 13. -->
 
 Classfy the following scheduling applications:
 
@@ -291,7 +291,7 @@ Classfy the following scheduling applications:
 	  of the order or the client and the tardiness of the delivery.
 
 
-#### Sheet 11: <a name="sheet11"></a> Exercise for Thursday, May 23.
+#### Sheet 11: <a name="sheet11"></a> <!-- Exercise for Thursday, May 23. -->
 
 1. Solve Exercise 2.2
 
