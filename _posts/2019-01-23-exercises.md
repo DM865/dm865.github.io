@@ -7,6 +7,7 @@ categories: exercises sheet1
 ---
 
 #### Sheet 1:
+<!-- Exercises for Thursday, February 7 -->
 
 1.  Let $G$ be a complete undirected graph with non-negative edge
     weights.
