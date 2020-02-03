@@ -43,9 +43,9 @@ w3.includeHTML();
 
 The overview will be continuously updated during the course.
 
-| Week | Date | Lectures  	                                                                                                         | Suggested reading                                                                                     |
+| Week | Date | Lectures  	                                                                                                           | Suggested reading                                                                                     |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
-|    6 | 3/2  | Introduction to the course <br> Introduction to approximation algorithms <br> TSP: Insertion and the Double Tree algorithm | [Pizza meeting slides][1]; [More details][2] <br> 1.1 [WS] <br> 2.4 [WS]<!-- ; [Lecture notes][3] -->         |
+|    6 | 3/2  | Introduction to the course <br> Introduction to approximation algorithms <br> TSP: Insertion and the Double Tree algorithm | [Pizza meeting slides][1]; [More details][2] <br> 1.1 [WS] <br> 2.4 [WS]; [Lecture notes][3]          |
 |      | 5/2  | TSP: Christofide's algorithm <br> Exercises                                                                                | 2.4 [WS]<!-- ; [Lecture notes][4] -->  <br> [Exercise sheet 1]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet1)     |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
 |    7 | 10/2 | TSP: Heuristics                                                                                                            | [No]<!-- ; [Slides][5] -->;  [wiki](https://en.wikipedia.org/wiki/Held%E2%80%93Karp_algorithm)                 |
@@ -138,7 +138,7 @@ The overview will be continuously updated during the course.
 
 [1]: {{ "/assets/dm865-presentation-handout.pdf" | absolute_url }}
 [2]: {{ "/assets/dm865-organization-handout.pdf" | absolute_url }}
-[3]: {{ "/assets/dm865-lec190204.pdf" | absolute_url }}
+[3]: {{ "/assets/dm865-lec200203.pdf" | absolute_url }}
 [4]: {{ "/assets/dm865-lec190207.pdf" | absolute_url }}
 [5]: {{ "/assets/dm865-tsp-ch-handout.pdf" | absolute_url }}
 [6]: {{ "/assets/dm865-tsp-ls-handout.pdf" | absolute_url }}
