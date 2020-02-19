@@ -93,20 +93,20 @@ categories: exercises sheet1
    `local_search.py`, which contains an implementation of a 2 opt local
    search. Study the implementation and test the results when the local
    search is executed after different construction heuristics. Is the
-   local search implemented a first improvement or a best improvement?
-   Does the 2 opt algorithm improves the results of the construction
-   heuristics?  How many steps (changes in the solutions) are executed?
-   Which combination `construction_heuristic` + `2_opt` leads to the
-   best results (including a random initial solution)?
+   local search implemented in that file a first improvement or a best
+   improvement?  Does the 2-opt algorithm improve the results of the
+   construction heuristics?  How many steps (changes in the solutions)
+   are executed?  Which combination `construction_heuristic` + `2_opt`
+   leads to the best results (including a random initial solution)?
    
-2. Compare the results of a *first improvement* 2 opt against those of a
-   *best improvement* 2 opt procedure. Is the comparison the same across
+2. Compare the results of a *first improvement* 2-opt against those of a
+   *best improvement* 2-opt procedure. Is the comparison the same across
    different initial solutions attained by different construction
    heuristics (including a random solution and a canonical sequence)?
    
-3. Try to improve the 2 opt implementation from the previous
-   point. Start by making it randomized. Then improve its execution time
-   by adopting some of the techniques explained in class.
+3. Try to improve the 2-opt implementation from the previous
+   point. Start by adding random choices. Then, improve its execution
+   time by adopting some of the techniques explained in class.
 
 4. Consider the traveling salesman problem defined on an incomplete
    graph. How could we encode the problem such that we can approach it
