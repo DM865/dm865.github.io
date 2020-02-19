@@ -76,6 +76,11 @@ categories: exercises sheet1
 	 + Fast recursive partitioning heuristic
 
 
+4. In Python kd-trees are already implemented in the module
+   [scipy](https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.spatial.KDTree.html). Try
+   to use them and improve some implementations of the construction
+   heuristics described above (you will probably need to change the
+   representation of points).
 
 
 
