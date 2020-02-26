@@ -146,8 +146,7 @@ Latex. Use the Latex package
 
 Submit only the file `three_opt.py` and the PDF result of your Latex
 pseudocode at this [portal](http://valkyrien.imada.sdu.dk/DOApp/). Keep your
-files anonymous! (The portal is likely to become available only during
-the day before Thursday.)
+files anonymous! 
 
 You are encouraged to work in pairs at this assignment, in which case it is
 enough that only one submits.
@@ -161,13 +160,13 @@ well.
 
 Instructions for the submission to http://valkyrien.imada.sdu.dk/DOApp/:
 
-Submit separately the source code (tgz file) and the description (pdf
-file).
+- Submit separately the source code (tgz file) and the description (pdf
+  file).
 
-Organize the source file like it is organized in the git repository from
-where you got the starting package. Create the archive from the root of
-the repository (that is, the directory that contains `src/`) using the
-following command:
+- Organize the source file like it is organized in the git repository
+  from where you got the starting package. Create the archive from the
+  root of the repository (that is, the directory that contains `src/`)
+  using the following command:
 
 ```
 tar czvf TSP.tgz * --exclude=.git --exclude=__*
