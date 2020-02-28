@@ -58,7 +58,7 @@ The overview will be continuously updated during the course.
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    9 | 24/2 | SAT: Local Search                                                                                                          | [Slides][8]; [Exercise sheet 4]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet4)                                                                                                  |
 |      | 26/2 | Local search theory                                                                                                        | ch 1, sc 2.1, 4.1 [MAK];   [Slides][7]                                                                                                                                                         |
-|      | 28/2 | MAX SAT: Randomized algorithms and derandomization                                                                         | 5.1-5.3 [WS]<!-- ; [Lecture notes][9] -->                                                                                                                                                      |
+|      | 28/2 | MAX SAT: Randomized algorithms and derandomization                                                                         | 5.1-5.3 [WS]; [Lecture notes][9]                                                                                                                                                     |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   10 | 2/3  | Exercises <br> MAX SAT: randomized LP rounding and Best of Two                                                             | [Exercise sheet 5]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet5) <br> 5.4-5.5 [WS]<!-- ; [Lecture notes][10] -->                                                               |
 |      | 4/3  | Q&A on the project assignment and Sheet 4 <br> Midway course evaluation                                                    | [Project part 1][11]; <!-- [Slides][13] -->                                                                                                                                                    |
@@ -144,7 +144,7 @@ The overview will be continuously updated during the course.
 [6]: {{ "/assets/dm865-tsp-ls-handout.pdf" | absolute_url }}
 [7]: {{ "/assets/dm865-local_search-handout.pdf" | absolute_url }}
 [8]: {{ "/assets/dm865-sat-handout.pdf" | absolute_url }}
-[9]: {{ "/assets/dm865-lec190305.pdf" | absolute_url }}
+[9]: {{ "/assets/dm865-lec200228.pdf" | absolute_url }}
 [10]: {{ "/assets/dm865-lec190307.pdf" | absolute_url }}
 [11]: {{ "/assets/dm865-assignment-ls.pdf" | absolute_url }}
 [12]: {{ "/assets/dm865-lec190312.pdf" | absolute_url }}
