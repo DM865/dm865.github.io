@@ -63,7 +63,7 @@ The overview will be continuously updated during the course.
 |   10 | 2/3  | Exercises <br> MAX SAT: randomized LP rounding and Best of Two                                                             | [Exercise sheet 5]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet5) <br> 5.4-5.5 [WS]; [Lecture notes][10]                                                               |
 |      | 4/3  | Q&A on the project assignment and Sheet 4 <br> Midway course evaluation                                                    | [Project part 1][11]; <!-- [Slides][13] -->                                                                                                                                                    |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   11 | 9/3  | MAX SAT: Nonlinear randomized LP rounding <br> Set Cover: deterministic LP-rounding                        | 5.6 [WS]<!-- ; [Lecture notes][12] --> <br> 1.2-1.3 [WS]                                                                                                                                   |
+|   11 | 9/3  | MAX SAT: Nonlinear randomized LP rounding <br> Set Cover: deterministic LP-rounding                        | 5.6 [WS]; [Lecture notes][12] <br> 1.2-1.3 [WS]                                                                                                                                   |
 |      | 11/3 | Exercises <br> Set Cover: LP duality  <br> Set Cover: Primal-Dual algorithm                                                | [Exercise sheet 6]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet6) <br> 1.4 [WS]<!-- ; [Lecture notes][14] -->  <br> 1.4-1.5 [WS]<!-- ; [Lecture notes][15] -->                  |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   12 | 16/3 | Set Cover: Randomized LP-rounding                                                                                          | 1.7 [WS]                                                                                                                                                                                       |
@@ -147,7 +147,7 @@ The overview will be continuously updated during the course.
 [9]: {{ "/assets/dm865-lec200228.pdf" | absolute_url }}
 [10]: {{ "/assets/dm865-lec200302.pdf" | absolute_url }}
 [11]: {{ "/assets/dm865-assignment-ls.pdf" | absolute_url }}
-[12]: {{ "/assets/dm865-lec190312.pdf" | absolute_url }}
+[12]: {{ "/assets/dm865-lec200309.pdf" | absolute_url }}
 [13]: {{ "/assets/dm865-working-handout.pdf" | absolute_url }}
 [14]: {{ "/assets/dm865-lec190314.pdf" | absolute_url }}
 [15]: {{ "/assets/dm865-lec190319.pdf" | absolute_url }}
