@@ -64,7 +64,7 @@ The overview will be continuously updated during the course.
 |      | 4/3  | Q&A on the project assignment and Sheet 4 <br> Midway course evaluation                                                    | [Project part 1][11]; <!-- [Slides][13] -->                                                                                                                                                    |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   11 | 9/3  | MAX SAT: Nonlinear randomized LP rounding <br> Set Cover: deterministic LP-rounding                        | 5.6 [WS]; [Lecture notes][12] <br> 1.2-1.3 [WS]                                                                                                                                   |
-|      | 11/3 | Exercises <br> Set Cover: LP duality  <br> Set Cover: Primal-Dual algorithm                                                | [Exercise sheet 6]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet6) <br> 1.4 [WS]<!-- ; [Lecture notes][14] -->  <br> 1.4-1.5 [WS]<!-- ; [Lecture notes][15] -->                  |
+|      | 11/3 | Exercises <br> Set Cover: LP duality  <br> Set Cover: Primal-Dual algorithm                                                | [Exercise sheet 6]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet6) <br> 1.4 [WS]; [Lecture notes][14]  <br> 1.4-1.5 [WS]<!-- ; [Lecture notes][15] -->                  |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   12 | 16/3 | Set Cover: Randomized LP-rounding                                                                                          | 1.7 [WS]                                                                                                                                                                                       |
 |      | 18/3 | Exercises <br> Set Cover: Greedy <br> Set Cover: Greedy analyzed by Dual Fitting                                           | [Exercise sheet 7]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet7) <br> 1.6 [WS] <!-- ; [Lecture notes][16] -->  <br> 1.6 [WS]<!-- ; [Lecture notes][17] -->                     |
@@ -149,7 +149,7 @@ The overview will be continuously updated during the course.
 [11]: {{ "/assets/dm865-assignment-ls.pdf" | absolute_url }}
 [12]: {{ "/assets/dm865-lec200309.pdf" | absolute_url }}
 [13]: {{ "/assets/dm865-working-handout.pdf" | absolute_url }}
-[14]: {{ "/assets/dm865-lec190314.pdf" | absolute_url }}
+[14]: {{ "/assets/dm865-lec200311.pdf" | absolute_url }}
 [15]: {{ "/assets/dm865-lec190319.pdf" | absolute_url }}
 [16]: {{ "/assets/dm865-lec190321.pdf" | absolute_url }}
 [17]: {{ "/assets/dm865-lec190326.pdf" | absolute_url }}
