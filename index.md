@@ -67,7 +67,7 @@ The overview will be continuously updated during the course.
 |      | 11/3 | Exercises <br> Set Cover: LP duality                                              | [Exercise sheet 6]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet6) <br> 1.4 [WS]; [Lecture notes][14]                   |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   12 | 16/3 | Set Cover: Primal-Dual algorithm                                                                                           | 1.4-1.5 [WS]; [Lecture notes][15]                                                                                                                      |
-|      | 18/3 |Set Cover: Greedy <br> Set Cover: Greedy analyzed by Dual Fitting                   | 1.6 [WS]   <br> 1.6 [WS]<!-- ; [Lecture notes][16] -->                   |
+|      | 18/3 |Set Cover: Greedy analyzed by Dual Fitting                                                                                  | 1.6 [WS]<!-- ; [Lecture notes][16] -->                   |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   13 | 23/3 | Set Cover: Randomized LP-rounding <br> Exercises                                                                           | 1.7 [WS] <br> [Exercise sheet 7]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet7)                                            |
 |      | 25/3 | Experimental Analysis of Heuristics for Optimization <br> Experimental Analysis of Heuristics for Optimization: Visualization    | <!-- [Slides][18] <br> [Slides][19] -->                                                                                                                                                                          |
@@ -151,7 +151,7 @@ The overview will be continuously updated during the course.
 [13]: {{ "/assets/dm865-working-handout.pdf" | absolute_url }}
 [14]: {{ "/assets/dm865-lec200311.pdf" | absolute_url }}
 [15]: {{ "/assets/dm865-lec200316.pdf" | absolute_url }}
-[16]: {{ "/assets/dm865-lec190321.pdf" | absolute_url }}
+[16]: {{ "/assets/dm865-lec190318.pdf" | absolute_url }}
 [17]: {{ "/assets/dm865-lec190326.pdf" | absolute_url }}
 [18]: {{ "/assets/dm865-experimental-1-handout.pdf" | absolute_url }}
 [19]: {{ "/assets/dm865-experimental-2-handout.pdf" | absolute_url }}
