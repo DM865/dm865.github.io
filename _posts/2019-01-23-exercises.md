@@ -231,13 +231,10 @@ derandomized to obtain a deterministic $p$-approximation algorithm.
 
    Hint: For proving the appoximation ratio it may be helpful to first consider the algorithm that chooses between the sets {1,2,…,k} and {k+1}.
 
-
-#### Sheet 9: <a name="sheet9"></a> <!-- Exercise for Tuesday, May 7. -->
-
 1. Solve Exercise 3.6.
 
 
-#### Sheet 10: <a name="sheet10"></a> <!-- Exercises for Monday, May 13. -->
+#### Sheet 9: <a name="sheet9"></a> <!-- Exercise for Tuesday, May 7. -->
 
 Classfy the following scheduling applications:
 
@@ -296,7 +293,7 @@ Classfy the following scheduling applications:
 	  of the order or the client and the tardiness of the delivery.
 
 
-#### Sheet 11: <a name="sheet11"></a> <!-- Exercise for Thursday, May 23. -->
+#### Sheet 10: <a name="sheet10"></a> <!-- Exercises for Monday, May 13. -->
 
 1. Solve Exercise 2.2
 
