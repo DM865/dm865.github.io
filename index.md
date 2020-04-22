@@ -84,8 +84,8 @@ The overview will be continuously updated during the course.
 |      | 22/4 | Ant Colony Optimization                                                                                                    | [Slides][23]                                                                                                                                                                           |
 |      | 24/4 | Evolutionary Algorithms                                                                                                    | [Slides][24]                                                                                                                                                                         |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   18 | 27/4 | Knapsack: Approximation algorithms & FPTAS <br> Bin Packing: Approximation algorithms                        | 3.1 [WS] <!-- [Lecture notes][25] -->  <br> 3.3 [WS] <!-- ; [Lecture notes][26] -->                       |
-|      | 29/4 | Exercises <br> Bin Packing: APTAS                                                                                           | [Exercise sheet 8]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet8) <br> 3.3 [WS] <!-- ; [Lecture notes][27] -->                                                                  |
+|   18 | 27/4 | Knapsack: Approximation algorithms & FPTAS <br> Bin Packing: Approximation algorithms                        | 3.1 [WS] [Lecture notes][25]  <br> 3.3 [WS]                       |
+|      | 29/4 | Exercises <br> Bin Packing: APTAS                                                                                           | [Exercise sheet 8]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet8) <br> 3.3 [WS]; [Lecture notes][26]                                                                  |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   19 | 4/5  | Scheduling: Classification                                                                                                 | <!-- [Slides][28]; --> <!-- [Slides][29]; --> [Exercise sheet 9]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet9); ch 1 [BK]                                                    |
 |      | 6/5  | Scheduling: Complexity                                                                                                     | <!-- [Slides][30]; --> [BK ch 1] [P chp 2,3]                                                                                                                                                   |
@@ -160,8 +160,8 @@ The overview will be continuously updated during the course.
 [22]: {{ "/assets/dm865-assignment-meta.pdf" | absolute_url }}
 [23]: {{ "/assets/dm865-aco-handout.pdf" | absolute_url }}
 [24]: {{ "/assets/dm865-evolutionary-handout.pdf" | absolute_url }}
-[25]: {{ "/assets/dm865-lec190430.pdf" | absolute_url }}
-[26]: {{ "/assets/dm865-lec190502.pdf" | absolute_url }}
+[25]: {{ "/assets/dm865-lec200427.pdf" | absolute_url }}
+[26]: {{ "/assets/dm865-lec200429.pdf" | absolute_url }}
 [27]: {{ "/assets/dm865-lec190507.pdf" | absolute_url }}
 [28]: {{ "/assets/dm865-scheduling-class-handout.pdf" | absolute_url }}
 [29]: {{ "/assets/dm865-scheduling-rcpsp-handout.pdf" | absolute_url }}
