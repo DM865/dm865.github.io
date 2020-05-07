@@ -95,7 +95,7 @@ The overview will be continuously updated during the course.
 |      | 6/5  | Scheduling: Complexity                                                                                                     | <!-- [Slides][30]; [BK ch 1] [P chp 2,3] -->                                                                                                                                                   |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   20 | 11/5 | Scheduling: Single Machine                                                                                                 | <!-- [Slides][31]; -->                                                                                                                                                                         |
-|      | 13/5 | Scheduling: Approximation algorithms                                                                                       | 2.3 [WS] <!-- ; [Lecture notes][32] -->                                                                                                                                                        |
+|      | 13/5 | Scheduling: Approximation algorithms                                                                                       | 2.3 [WS]; [Lecture notes][32]                                                                                                                                                        |
 |      | 15/5 | Scheduling: PTAS <br> Exercises                                                                                            | 3.2 [WS] <!-- ; [Lecture notes][33] --> <br> [Exercise sheet 10]({{ site.baseurl }}{% post_url 2019-01-23-exercises %}#sheet10)                                                                |
 |------+------+----------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   21 | 18/5 | Course evalutation <br> Discussion of the exam <br> Assignment of exam slots                                               | <!-- All [lecture notes][34] for approximation <br> algorithms as one pdf-file --> <br>[Q&A](https://docs.google.com/document/d/1rT357UFBG1enfMrMuvwHBmaAIl2mdmAMiptLbjmu1jE/edit?usp=sharing) |
@@ -171,7 +171,7 @@ The overview will be continuously updated during the course.
 [29]: {{ "/assets/dm865-scheduling-rcpsp-handout.pdf" | absolute_url }}
 [30]: {{ "/assets/dm865-scheduling-complex-handout.pdf" | absolute_url }}
 [31]: {{ "/assets/dm865-scheduling-single-handout.pdf" | absolute_url }}
-[32]: {{ "/assets/dm865-lec190521.pdf" | absolute_url }}
+[32]: {{ "/assets/dm865-lec200513.pdf" | absolute_url }}
 [33]: {{ "/assets/dm865-lec190523.pdf" | absolute_url }}
 [34]: {{ "/assets/dm865-lectureNotes19.pdf" | absolute_url }}
 [35]: {{ "https://github.com/DM865/CVRP/tree/master/r" | absolute_url }}
