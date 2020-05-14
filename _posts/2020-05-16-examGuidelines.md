@@ -74,12 +74,10 @@ handwriting. For this, you should consider the solutions listed below:
 
 * Using your smartphone
 
-** Using the app **Zoom** installed in your Smartphone. Log in
-   the zoom room of the conference, Use the camera of the smartphone
-   to cast the handwriting. In comparison to the previous option it
-   seems to consume less battery (the phone can in case be put in
-   stand by) but it does not offer possibility to zoom in and pan as
-   the option above.
+** Using the app **Zoom** installed in your Smartphone. Log in the
+   zoom room of the conference, use the camera of the smartphone to
+   cast the handwriting. Make sure the battery of the mobile phone is
+   fully charged before the exam.
 
 ** Using the app: **IP Webcam** installed in your Smartphone. Start
    the App and press "Start server" (the last option in the main
@@ -87,13 +85,9 @@ handwriting. For this, you should consider the solutions listed below:
    address in the browser of your computer. Share the screen of your
    computer via, eg, Zoom, thus you can share slides, yourself and
    your handwriting at once. Be creative in placing your smartphone in
-   such a way that the camera can see your writings, see some
-   inspiration below. It is possible to mirror, flip or rotate the
-   image from the browser: select "Advanced settings" and then
-   "Orientation" or "Mirror and Flip". An issue might be the battery
-   consumption, so far neither of my two smartphones (old and new)
-   could hold the two hours time of a lecture, but breaks are worth
-   for doing the swap)
+   such a way that the camera can see your writings. It is possible to
+   mirror, flip, pan or rotate the image from the browser: select
+   "Advanced settings" and then "Orientation" or "Mirror and Flip". 
 
 
 
