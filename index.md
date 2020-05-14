@@ -137,7 +137,7 @@ The overview will be continuously updated during the course.
 
 - Oral exam based on the theoretical part and the practical
   assignments. Ordinary exam on the 2nd of June 2020 (online). Reexam on the 19th of August 2020.
-  [Guidelines]({{ site.baseurl }}{% post_url 2019-02-05-examGuidelines %}).
+  [Guidelines]({{ site.baseurl }}{% post_url 2020-05-16-examGuidelines %}).
 
 
 
