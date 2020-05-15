@@ -174,5 +174,5 @@ The overview will be continuously updated during the course.
 [31]: {{ "/assets/dm865-scheduling-single-handout.pdf" | absolute_url }}
 [32]: {{ "/assets/dm865-lec200513.pdf" | absolute_url }}
 [33]: {{ "/assets/dm865-lec200515.pdf" | absolute_url }}
-[34]: {{ "/assets/dm865-lectureNotes19.pdf" | absolute_url }}
+[34]: {{ "/assets/dm865-lectureNotes20.pdf" | absolute_url }}
 [35]: {{ "https://github.com/DM865/CVRP/tree/master/r" | absolute_url }}
