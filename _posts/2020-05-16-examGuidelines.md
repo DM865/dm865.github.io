@@ -64,9 +64,9 @@ handwriting. For this, you should consider the solutions listed below:
 
 * Using a tablet or touch screen or digital pen
 
-** sharing in zoom a tablet or a touch screen.
+  * sharing in zoom a tablet or a touch screen.
 
-** sharing in zoom [Explain
+  * sharing in zoom [Explain
    Everything](https://whiteboard.explaineverything.com/) together
    with any marker (eg, digital pen).
 
@@ -74,12 +74,12 @@ handwriting. For this, you should consider the solutions listed below:
 
 * Using your smartphone
 
-** Using the app **Zoom** installed in your Smartphone. Log in the
+  * Using the app **Zoom** installed in your Smartphone. Log in the
    zoom room of the conference, use the camera of the smartphone to
    cast the handwriting. Make sure the battery of the mobile phone is
    fully charged before the exam.
 
-** Using the app: **IP Webcam** installed in your Smartphone. Start
+  * Using the app: **IP Webcam** installed in your Smartphone. Start
    the App and press "Start server" (the last option in the main
    menu). When the camera starts you see an IP address, type that
    address in the browser of your computer. Share the screen of your
@@ -87,7 +87,7 @@ handwriting. For this, you should consider the solutions listed below:
    your handwriting at once. Be creative in placing your smartphone in
    such a way that the camera can see your writings. It is possible to
    mirror, flip, pan or rotate the image from the browser: select
-   "Advanced settings" and then "Orientation" or "Mirror and Flip". 
+   "Advanced settings" and then "Orientation" or "Mirror and Flip".
 
 
 
