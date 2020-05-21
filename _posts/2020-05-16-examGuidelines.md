@@ -12,8 +12,12 @@ categories: exam
 ## Exam Guidelines
 
 
-The oral exam takes place on the 2nd of June.
+The oral exam takes place on the 2nd of June. The examiners are Lene
+Monrad Favrholdt and Marco Chiarandini and the censor [Gerth Stølting
+Brodal](https://www.cs.au.dk/~gerth/)
 
+
+### Structure of the Exam
 
 The examination lasts approximately 25 minutes. Your goal is to
 convince the examiners and external examiner ("censor" in Danish) that
@@ -47,9 +51,7 @@ We will use **Zoom**. You will be given an address in due time.  We
 will follow a schedule that will be communicated a few days before the
 exam and that will be updated online in case of delays. You will have
 to log into a meeting room 5 minutes before your time and you will be
-admitted from a waiting room when your time arrives. After the
-examination the examiners will convene in a breakout room to discuss
-the grade while you will be waiting in the main room.
+admitted from a waiting room when your time arrives. 
 
 
 It is student's responsibility to have a working setup by the time of
@@ -58,7 +60,13 @@ your peers.
 
 You must have the video active and the main camera should have focus
 on your face, that must always be visible online at anytime during the
-examination. You might need to produce and show drawing and
+examination. If you find it intrusive to reveal your personal
+surroundings, you can use a virtual background, available in Zoom –
+see the arrow next to the video icon. However, you should discuss and
+test this possibility earlier with the examiners in the trial on May
+27.
+
+You might need to produce and show drawing and
 handwriting. For this, you should consider the solutions listed below:
 
 
@@ -90,6 +98,35 @@ handwriting. For this, you should consider the solutions listed below:
     possible to mirror, flip, pan or rotate the image from the
     browser: select "Advanced settings" and then "Orientation" or
     "Mirror and Flip".
+
+
+
+### Grade and Feedback
+
+After the examination the examiners will convene in a breakout room to
+discuss the grade while you will be waiting in the main Zoom
+room. They will then get back to you to give you the grade and
+feedback on your performance. Afterwards you will be asked to leave
+the room.
+
+
+
+### Before the Exam
+
+* Make sure you have read this document
+
+* Have ready paper, pen and a glass of water
+
+* Have ready both your two projects, either physically or in your computer. Be ready to share the screen on those.
+
+
+### During the Exam
+
+* Remember that you can ask the examiners to repeat, re-phrase or
+  change a question.
+
+* The examiners will support you to do your best.
+
 
 
 
