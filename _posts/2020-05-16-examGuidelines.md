@@ -19,7 +19,7 @@ The examination lasts approximately 25 minutes. Your goal is to
 convince the examiners and external examiner ("censor" in Danish) that
 you have a thorough understanding of the contents of the course.
 
-You will be asked questions by the exmainers in a proportion of about
+You will be asked questions by the examiners in a proportion of about
 3:1 between the approximation algorithms part and the projects
 including the general aspects of heuristics. Aim for a reasonably high
 pace and focus on the most interesting material related to the
@@ -38,7 +38,10 @@ generally avoid spending time writing full sentences, which can
 instead be expressed orally.
 
 
-## Details about the tools for the online setting
+### Details about the Tools for the Online Setting
+
+We will follow the [official SDU
+guidelines](https://mitsdu.dk/en/vejledning/studieregler/eksamen/mundtlig_proeve).
 
 We will use **Zoom**. You will be given an address in due time.  We
 will follow a schedule that will be communicated a few days before the
@@ -48,17 +51,15 @@ admitted from a waiting room when your time arrives. After the
 examination the examiners will convene in a breakout room to discuss
 the grade while you will be waiting in the main room.
 
-We will follow the [official SDU
-guidelines](https://mitsdu.dk/en/vejledning/studieregler/eksamen/mundtlig_proeve).
 
-It is student's responsability to have a working setup by the time of
-the exam and to have gained experience with the syestem.
+It is student's responsibility to have a working setup by the time of
+the exam and to have gained experience with the system. Test it with
+your peers.
 
 You must have the video active and the main camera should have focus
 on your face, that must always be visible online at anytime during the
 examination. You might need to produce and show drawing and
 handwriting. For this, you should consider the solutions listed below:
-
 
 
 
