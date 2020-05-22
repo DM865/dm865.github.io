@@ -30,7 +30,6 @@ pace and focus on the most interesting material related to the
 questions you get. You are not supposed to use note material,
 textbooks, transparencies, etc.
 
-
 We will start by asking relatively general and trivial questions. Then
 we will increase the level of difficulty of the questions adapting
 them to your ongoing performance. Hence, you should not panic for a
@@ -40,6 +39,8 @@ the point. To make the presentation of your answer precise it may be a
 good idea to use handwritten mathematical symbols and drawings, but
 generally avoid spending time writing full sentences, which can
 instead be expressed orally.
+
+You can speak Danish or English. Choose the language you are most comfortable with.
 
 
 ### Details about the Tools for the Online Setting
@@ -54,7 +55,7 @@ to log into a meeting room 5 minutes before your time and you will be
 admitted from a waiting room when your time arrives. 
 
 
-It is student's responsibility to have a working setup by the time of
+It is the student's responsibility to have a working setup by the time of
 the exam and to have gained experience with the system. Test it with
 your peers.
 
@@ -83,7 +84,7 @@ handwriting. For this, you should consider the solutions listed below:
 
 * Using your smartphone
 
-  * Using the app **Zoom** installed in your Smartphone. Log in the
+  * Using the app **Zoom** installed in your Smartphone. Log into the
     zoom room of the conference, use the camera of the smartphone to
     cast the handwriting. Make sure the battery of the mobile phone is
     fully charged before the exam.
@@ -92,7 +93,7 @@ handwriting. For this, you should consider the solutions listed below:
     the App and press "Start server" (the last option in the main
     menu). When the camera starts you see an IP address, type that
     address in the browser of your computer. Share the screen of your
-    computer via, eg, Zoom, thus you can share slides, yourself and
+    computer via, eg, Zoom, thus you can share yourself and
     your handwriting at once. Be creative in placing your smartphone
     in such a way that the camera can see your writings. It is
     possible to mirror, flip, pan or rotate the image from the
