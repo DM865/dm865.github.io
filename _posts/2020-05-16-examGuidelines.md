@@ -51,7 +51,7 @@ We will use **Zoom**. You will be given an address in due time.  We
 will follow a schedule that will be communicated a few days before the
 exam and that will be updated online in case of delays. You will have
 to log into a meeting room 5 minutes before your time and you will be
-admitted from a waiting room when your time arrives. 
+moved to a breakout room when your time arrives. 
 
 
 It is the student's responsibility to have a working setup by the time of
