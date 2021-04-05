@@ -23,8 +23,8 @@ description: Course on Heuristics and Approximation Algorithms
 # baseurl: "/~marco/Teaching/AY2018-2019/DM865" # the subpath of your site, e.g. /blog
 # url: "https://www.imada.sdu.dk" # the base hostname & protocol for your site, e.g.
 baseurl: "" # the subpath of your site, e.g. /blog
-#url: "https://dm865.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/~marco/Teaching/AY2019-2020/DM865"
+url: "https://dm865.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "/~marco/Teaching/AY2019-2020/DM865"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
